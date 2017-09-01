@@ -1,14 +1,8 @@
 <?php
-/*
-+---------------------------------------------------------------+
-|        e107 website content management system French Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/01/23 10:18:14
-|
-|        $Author: Olivier Troccaz $
-+---------------------------------------------------------------+
-*/
+
+// Bing-Translated Language file 
+// Generated for e107 v2.x by the Multi-Language Plugin
+// https://github.com/e107inc/multilan
 
 define("LAN_DL_OPTIONS", "Options");
 define("LAN_DL_DOWNLOAD_OPT_GENERAL", "Général");
@@ -43,14 +37,13 @@ define("DOWLAN_24", "Mettre à jour le téléchargement");
 define("DOWLAN_25", "Soumettre le téléchargement");
 define("DOWLAN_27", "Télécharger");
 define("DOWLAN_28", "Aucun");
-define("DOWLAN_29", "Demandé");
 define("DOWLAN_31", "Catégories");
 define("DOWLAN_32", "Téléchargements");
 define("DOWLAN_33", "Êtes-vous sûr de vouloir supprimer ce téléchargement ?");
 define("DOWLAN_42", "Voir les images");
 define("DOWLAN_43", "Visible par");
 define("DOWLAN_55", "Nombre de téléchargements à afficher par page");
-define("DOWLAN_56", "Trier par");
+define("DOWLAN_56", "Trier par ");
 define("DOWLAN_59", "Nom de fichier");
 define("DOWLAN_62", "Ordre croissant");
 define("DOWLAN_63", "Ordre décroissant");
@@ -148,6 +141,3 @@ define("DOWLAN_HELP_7", "Aide pour les sites miroirs");
 define("DOWLAN_HELP_8", "Aide pour la liste des téléchargements");
 define("DOWLAN_HELP_9", "Aide pour les types de téléchargements");
 define("DOWLAN_HELP_10", "Aide pour les options de téléchargement");
-
-
-?>
