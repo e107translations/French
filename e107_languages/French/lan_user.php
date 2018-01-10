@@ -69,9 +69,9 @@ define("LAN_USER_71", "Signature :");
 define("LAN_USER_72", "Avatar :");
 define("LAN_USER_73", "choix du contenu/Mail-lists");
 define("LAN_USER_74", "Titre personnalisé");
-define("LAN_USER_75", "Votre --SOMETHING-- est nécessaire");
+define("LAN_USER_75", "Votre [x] est nécessaire");
 define("LAN_USER_76", "Abonné à :");
-define("LAN_USER_77", "Votre mot de passe doit comporter au moins --COUNT--caractères.");
+define("LAN_USER_77", "Votre mot de passe doit comporter au moins [x] caractères.");
 define("LAN_USER_78", "Minimum");
 define("LAN_USER_79", "caractères");
 define("LAN_USER_80", "le nom affiché sur le site");
@@ -80,13 +80,17 @@ define("LAN_USER_82", "le nom que vous utilisez pour vous connecter au site");
 define("LAN_USER_83", "Masquer l'adresse mail ? :");
 define("LAN_USER_84", "Cela empêchera l'affichage de votre adresse mail sur le site");
 define("LAN_USER_85", "Si vous souhaitez modifier votre nom d'utilisateur, vous devez le demander à un administrateur du site");
-define("LAN_USER_86", "La taille maximale de l'avatar est de --WIDTH-- x --HEIGHT-- pixels");
+define("LAN_USER_86", "La taille maximale de l'avatar est de [x]- x [y] pixels");
+define("LAN_USER_87", "Connectez-vous pour donner votre avis !");
 define("LAN_XUP_ERRM_01", "L'inscription a échoué ! Cette fonctionnalité est désactivée");
 define("LAN_XUP_ERRM_02", "L'inscription a échoué ! Mauvais fournisseur.");
 define("LAN_XUP_ERRM_03", "La connexion a échoué ! Mauvais fournisseur.");
 define("LAN_XUP_ERRM_04", "L'inscription a échoué ! L'utilisateur est déjà inscrit.");
 define("LAN_XUP_ERRM_05", "L'inscription a échoué ! L'utilisateur existe déjà. Veuillez utiliser 'connexion' à la place.");
 define("LAN_XUP_ERRM_06", "L'inscription a échoué ! Impossible d'accéder au mail de l'utilisateur - l'inscription sans renseigner de mail n'est pas possible.");
-
-
-?>
+define("LAN_XUP_ERRM_07", "Testeur de login de réseau social");
+define("LAN_XUP_ERRM_08", "Veuillez vous déconnecter d’e107 avant de tester la nouvelle procédure de connexion/inscription.");
+define("LAN_XUP_ERRM_09", "Test de connexion seulement avec [x]");
+define("LAN_XUP_ERRM_10", "Test de connexion/inscription avec [x]");
+define("LAN_XUP_ERRM_11", "Connecté :");
+define("LAN_XUP_ERRM_12", "Test de déconnexion");

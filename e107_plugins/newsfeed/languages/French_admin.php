@@ -9,45 +9,19 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
-define("NFLAN_03", "Configurer les flux RSS");
-define("NFLAN_04", "L'extension des flux RSS a été installée avec succès. Pour ajouter et configurer des flux RSS, retournez à la page d'administration principale et cliquez sur l'icône des flux RSS dans la section extensions.");
-define("NFLAN_07", "Flux RSS existants");
-define("NFLAN_08", "Page d'accueil des flux RSS");
-define("NFLAN_09", "Créer un flux RSS");
-define("NFLAN_10", "URL de flux RSS.");
 define("NFLAN_11", "Chemin vers l'image");
 define("NFLAN_12", "Activation");
 define("NFLAN_13", "Nulle part (inactif)");
 define("NFLAN_14", "Dans le menu uniquement");
-define("NFLAN_17", "Entrez 'par défaut' pour utiliser l'image définie dpour le flux. Pour utiliser votre propre image, entrez le chemin d'accès complet. Laissez vide pour aucune image.");
 define("NFLAN_18", "Intervalle de mise à jour en secondes");
 define("NFLAN_19", "par exemple 3600 : le flux RSS sera mis à jour toutes les heures");
 define("NFLAN_20", "Sur page d'accueil des flux RSS seulement");
 define("NFLAN_21", "À la fois sur la page du menu et des flux RSS");
-define("NFLAN_22", "Choisissez où vous voulez voir apparaître les flux RSS.");
 define("NFLAN_26", "Intervalle de mise à jour");
-define("NFLAN_37", "Brève description du flux. Entrez 'par défaut' pour utiliser la description définie pour le flux");
-define("NFLAN_41", "Aucun flux RSS défini actuellement");
-define("NFLAN_42", "<b>»</b> <u>Nom du flux :</u> le nom d'identification du flux peut être ce que vous voulez.<br /><br />
-	<b>»</b> <u>URL de flux RSS :</u> l'adresse du flux RSS<br /><br />
-	<b>»</b> <u>Chemin vers l'image :</u> si le flux a sa propre image, entrez 'par défaut' pour l'utiliser. Pour utiliser votre propre image, entrez son chemin d'accès complet. Laissez vide pour n'utiliser aucune image.<br /><br />
-	<b>»</b> <u>Description :</u> entrez une brève description du flux, ou 'par défaut' pour utiliser la description définie pour le flux (si elle existe).<br /><br />
-	<b>»</b> <u>Intervalle de mise à jour en secondes :</u>	l'intervalle de temps en secondes avant que le flux ne soit mis à jour, par exemple, 1800 : 30 minutes, 3600 : une heure.<br /><br />
-	<b>»</b> <u>Activation :</u> là vous souhaitez que les résultats des flux soient affichés; pour voir le menu des flux, vous aurez besoin pour d'activer le menu flux RSS sur la <a href='".e_ADMIN."menus.php'>page des menus</a>.<br /><br />
-	Pour une liste claire des flux disponibles, consultez <a href='http://www.syndic8.com/' rel='external'>syndic8.com</a> ou <a href='http://feedfinder.feedster.com/index.php' rel='external'>feedster.com</a>");
 define("NFLAN_43", "Aide flux RSS");
-define("NFLAN_44", "Cliquer pour voir");
+define("NFLAN_42", "[h=4]Titre du flux[/h] Entrez un nom pour identifier le flux de News avec précision. [h=4]URL vers le flux RSS[/h] le fournisseur RSS vous donnera une adresse Web (URL) pour le flux. [h=4]Chemin d'accès à l'image[/h] si le fournisseur spécifie une image à utiliser, entrez 'default'» pour l'utiliser ou choisissez utiliser votre propre image en saisissant l'adresse de l'image. Laissez vide pour n'utiliser aucune image. [h=4]Description[/h] Entrez une courte description du flux, ou 'default' pour utiliser la description définie dans le flux (s'il y en a une). [h=4]Intervalle de mise à jour[/h] Entrez le nombre de secondes avant la mise à jour du flux. Par exemple, 1800 = 30 minutes, 3600 = 1 heure, 86400 = 1 jour. [h=4]Activation[/h] Le flux peut être affiché dans le menu uniquement ou sur la page des flux. Entrez les détails où les flux doivent être affichés. Pour voir les flux dans les menus e107, vous devrez activer le menu [b]flux[b/] dans [link=".e_ADMIN."menus.php]le gestionnaire de menus [/link]. [h=4]Astuce[/h] Il y a de nombreux répertoires de flux sur le Web, essayez [link=https://www.DMOZ.org/Computers/Internet/On_the_Web/Syndication_and_Feeds/RSS/Directories/ external]Dmoz[/link] ou [link=http://www.Feedster.com/ external]Feedster[/link]");
 define("NFLAN_45", "Nombre d'éléments à afficher dans le menu");
 define("NFLAN_46", "Nombre d'éléments à afficher sur la page principale");
-define("NFLAN_47", "0 ou vide pour tout afficher");
-define("NFLAN_49", "Impossible de désérialiser les données RSS - syntaxe non standard utilisée");
-define("LAN_AL_NEWSFD_01", "Flus RSS créé");
-define("LAN_AL_NEWSFD_02", "Flux RSS mis à jour");
-define("LAN_AL_NEWSFD_03", "Flux RSS supprimé");
-define("LAN_AL_NEWSFD_04", "");
-define("LAN_AL_NEWSFD_05", "");
-define("NFLAN_50", "Dernière actualisation");
 
 
 ?>

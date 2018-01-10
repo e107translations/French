@@ -9,19 +9,18 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("PAGE_NAME", "Recherche");
 define("LAN_140", "Membres");
 define("LAN_192", "Toutes les catégories");
 define("LAN_193", "Agenda des événements");
 define("LAN_194", "Toutes les catégories");
 define("LAN_195", "Recherche");
-define("LAN_196", "correspond à&nbsp;");
+define("LAN_196", "correspond à :");
 define("LAN_197", "Téléchargements");
 define("LAN_198", "Aucune correspondance trouvée");
 define("LAN_199", "Recherche pour :");
 define("LAN_416", "Vous devez être connecté pour accéder à cette page");
-define("LAN_417", "Les termes de recherche doivent être d'au moins --CHARS-- caractères.");
+define("LAN_417", "Les termes de recherche doivent être d'au moins [x] caractères.");
 define("LAN_418", "Autres pages");
 define("LAN_SEARCH_1", "Tout sélectionner");
 define("LAN_SEARCH_2", "Tout désélectionner");
@@ -72,15 +71,15 @@ define("LAN_SEARCH_48", "Deux ans");
 define("LAN_SEARCH_49", "Trois ans");
 define("LAN_SEARCH_50", "Date de publication");
 define("LAN_SEARCH_51", "Toutes les catégories");
-define("LAN_SEARCH_52", "Correspondre à&nbsp;");
+define("LAN_SEARCH_52", "Correspondre à�");
 define("LAN_SEARCH_53", "Élément entier");
 define("LAN_SEARCH_54", "Titre uniquement");
 define("LAN_SEARCH_55", "Rechercher dans les catégorie d'articles");
 define("LAN_SEARCH_56", "Toutes les catégories d'articles");
-define("LAN_SEARCH_57", "Commentaires publiés à&nbsp;");
+define("LAN_SEARCH_57", "Commentaires publiés à�");
 define("LAN_SEARCH_58", "Toutes les zones");
 define("LAN_SEARCH_59", "Tous les commentaires");
-define("LAN_SEARCH_60", "Commentaires publiés à&nbsp;");
+define("LAN_SEARCH_60", "Commentaires publiés à�");
 define("LAN_SEARCH_61", "Par auteur");
 define("LAN_SEARCH_62", "Date d'inscription");
 define("LAN_SEARCH_63", "Rechercher dans la catégorie");
@@ -100,6 +99,3 @@ define("LAN_SEARCH_77", "Publié sur la page du profil de");
 define("LAN_SEARCH_98", "Articles");
 define("LAN_SEARCH_201", "Veuillez redéfinir votre requête de recherche");
 define("LAN_SEARCH_202", "Activer/désactiver le mode avancé");
-
-
-?>

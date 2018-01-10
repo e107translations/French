@@ -57,17 +57,17 @@ define("ADLAN_PM_64", "Messages reçus");
 define("ADLAN_PM_65", "Blocages d'utilisateur");
 define("ADLAN_PM_66", "Aucune tache de maintenance spécifiée");
 define("ADLAN_PM_67", "Maintenance de la base de données de PM démarrée");
-define("ADLAN_PM_68", "--COUNT-- blocs retirés vers des utilisateurs supprimés");
-define("ADLAN_PM_69", "--COUNT-- blocs retirés à partir d'utilisateurs supprimés");
-define("ADLAN_PM_70", "Erreur --NUM-- de la base de données : --TEXT-- en supprimant des blocages d'utilisateurs");
+define("ADLAN_PM_68", "[x] blocs retirés vers des utilisateurs supprimés");
+define("ADLAN_PM_69", "[x] blocs retirés à partir d'utilisateurs supprimés");
+define("ADLAN_PM_70", "Erreur [y] de la base de données : [z] en supprimant des blocages d'utilisateurs");
 define("ADLAN_PM_71", "Messages à la durée expirée");
 define("ADLAN_PM_72", "Aucune durée limite de PM définie");
-define("ADLAN_PM_73", "--COUNT-- PM au temps expiré supprimés");
-define("ADLAN_PM_74", "Suppression de --COUNT-- messages envoyés par des utilisateurs supprimés");
-define("ADLAN_PM_75", "Suppression de --COUNT-- messages reçus par des utilisateurs supprimés");
+define("ADLAN_PM_73", "[x] PM au temps expiré supprimés");
+define("ADLAN_PM_74", "Suppression de [x] messages envoyés par des utilisateurs supprimés");
+define("ADLAN_PM_75", "Suppression de [x] messages reçus par des utilisateurs supprimés");
 define("ADLAN_PM_77", "(Supprime tous les champs et met à jour pour supprimer une limite)");
 define("ADLAN_PM_78", "Vérifier les pièces jointes");
-define("ADLAN_PM_79", "--ORPHANS-- pièces jointes inutilisées supprimées. --MISSING-- pièces jointes manquantes");
+define("ADLAN_PM_79", "[x] pièces jointes inutilisées supprimées. [y] pièces jointes manquantes");
 define("ADLAN_PM_80", "Préférence de formats mise à jour");
 define("ADLAN_PM_81", "Nombre maximum de PM à envoyer immédiatement");
 define("ADLAN_PM_82", "S'il y en a plus à envoyer, ils sont ajoutés à une file d'attente et délivrés ensuite grâce à une tâche automatisée");
@@ -82,6 +82,3 @@ define("ADLAN_PM_90", "Veuillez renseigner un destinataire dans le champ 'To'");
 define("ADLAN_PM_91", "Test");
 define("ADLAN_PM_92", "Mail test envoyé !");
 define("ADLAN_PM_93", "Échec du mail test !");
-
-
-?>

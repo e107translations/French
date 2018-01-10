@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("LANG_LAN_00", "[x] n'a pas pu être créé (existe déjà).");
 define("LANG_LAN_01", "[x] a été supprimé (si existant) et créé.");
 define("LANG_LAN_02", "[x] n'a pas pu être supprimé.");
@@ -61,8 +60,9 @@ define("LANG_LAN_141", "Choisissez le script ...");
 define("LANG_LAN_142", "Détection automatique");
 define("LANG_LAN_143", "Fichier LAN spécifique");
 define("LANG_LAN_144", "Doit être réactivé");
+define("LANG_LAN_148", "Mode normal");
 define("LANG_LAN_149", "Valeur");
 define("LANG_LAN_150", "[b]Rechercher dans le noyau ENTIER avant de commenter TOUT LAN de TOUT fichier langue.[/b]");
-
-
-?>
+define("LANG_LAN_151", "Disponible");
+define("LANG_LAN_152", "Avec la permission de l'[équipe de traductions e107]");
+define("LANG_LAN_153", "Pré-version");

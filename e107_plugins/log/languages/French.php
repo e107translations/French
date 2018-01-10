@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/09/25 11:23:36
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 define("PAGE_NAME", "Statistiques");
 define("ADSTAT_L1", "Cette extension enregistrera toutes les visites de votre site et construira des écrans de statistiques détaillées basés sur les informations recueillies.");
@@ -56,7 +62,7 @@ define("ADSTAT_L49", "Trier par ordre alphabétique");
 define("ADSTAT_L50", "Statistiques depuis le début");
 define("ADSTAT_L51", "Statistiques du mois en cours");
 define("ADSTAT_L52", "Statistiques du mois précédent");
-define("ADSTAT_L53", "");
+define("ADSTAT_L53", "Information");
 define("ADSTAT_L54", "");
 define("ADSTAT_L55", "");
 define("ADSTAT_L56", "");
@@ -64,3 +70,6 @@ define("ADSTAT_L57", "");
 define("ADSTAT_L58", "");
 define("ADSTAT_L59", "");
 define("ADSTAT_L60", "");
+
+
+?>

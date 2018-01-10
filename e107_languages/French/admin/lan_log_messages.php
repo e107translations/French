@@ -1,18 +1,20 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/11/27 10:27:18
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 define("LAN_AUDIT_LOG_001", "Accès par un utilisateur exclu");
 define("LAN_AUDIT_LOG_002", "Protection flood activée");
 define("LAN_AUDIT_LOG_003", "Accès depuis une adresse IP exclue");
-define("LAN_AUDIT_LOG_004", "");
-define("LAN_AUDIT_LOG_005", "");
 define("LAN_AUDIT_LOG_006", "Un utilisateur a modifié son mot de passe.");
 define("LAN_AUDIT_LOG_007", "Un utilisateur a modifié son adresse email.");
-define("LAN_AUDIT_LOG_008", "");
-define("LAN_AUDIT_LOG_009", "");
 define("LAN_AUDIT_LOG_010", "Données utilisateur modifiées par un administrateur");
 define("LAN_AUDIT_LOG_011", "Un utilisateur s'est inscrit");
 define("LAN_AUDIT_LOG_012", "Un utilisateur a confirmé son inscription");
@@ -32,7 +34,6 @@ define("LAN_AL_ADLOG_01", "Journal d'administration - Préférences mises à jou
 define("LAN_AL_ADLOG_02", "Journal d'administration - supprimer les anciennes données");
 define("LAN_AL_ADLOG_03", "Journal d'audit utilisateur - supprimer les anciennes données");
 define("LAN_AL_ADLOG_04", "Options du journal d'audit utilisateur mises à jour");
-define("LAN_AL_ADLOG_05", "");
 define("LAN_AL_USET_01", "Un administrateur a modifié des données utilisateur");
 define("LAN_AL_USET_02", "Utilisateur a ajouté par un administrateur");
 define("LAN_AL_USET_03", "Options utilisateur mises à jour");
@@ -88,11 +89,8 @@ define("LAN_AL_FRONTPG_01", "Ordre des règles modifié");
 define("LAN_AL_FRONTPG_02", "Règle ajoutée");
 define("LAN_AL_FRONTPG_03", "Règle modifiée");
 define("LAN_AL_FRONTPG_04", "Règle supprimée");
-define("LAN_AL_FRONTPG_05", "");
-define("LAN_AL_FRONTPG_06", "");
 define("LAN_AL_UTHEME_00", "Événement inconnu relatif au thème utilisateur");
 define("LAN_AL_UTHEME_01", "Paramètres du thème utilisateur modifiés");
-define("LAN_AL_UTHEME_02", "");
 define("LAN_AL_UPDATE_00", "Évènement inconnu en rapport avec la mise à jour logiciel");
 define("LAN_AL_UPDATE_01", "Mise à jour de la version 1.0 vers la version 2.0 réalisée");
 define("LAN_AL_UPDATE_02", "Mise à jour de la version 0.7.x vers la version 0.7.6 réalisée");
@@ -100,7 +98,6 @@ define("LAN_AL_UPDATE_03", "Préférences manquantes ajoutées");
 define("LAN_AL_ADMIN_00", "Événement administrateur inconnu");
 define("LAN_AL_ADMIN_01", "Mettre à jour les autorisations administrateur");
 define("LAN_AL_ADMIN_02", "Droits d'administrateur supprimés");
-define("LAN_AL_ADMIN_03", "");
 define("LAN_AL_MAINT_00", "Message de maintenance inconnu");
 define("LAN_AL_MAINT_01", "Mode maintenance en place");
 define("LAN_AL_MAINT_02", "Mode maintenance autorisé");
@@ -118,12 +115,10 @@ define("LAN_AL_THEME_01", "Thème du site mis à jour");
 define("LAN_AL_THEME_02", "Thème administration mis à jour");
 define("LAN_AL_THEME_03", "Image de préchargement/site CSS mise à jour");
 define("LAN_AL_THEME_04", "Style/CSS administration mis à jour");
-define("LAN_AL_THEME_05", "");
 define("LAN_AL_CACHE_00", "Message inconnu relatif au cache-contrôle");
 define("LAN_AL_CACHE_01", "Paramètres de cache mis à jour");
 define("LAN_AL_CACHE_02", "Cache système vidé");
 define("LAN_AL_CACHE_03", "Cache de contenu vidé");
-define("LAN_AL_CACHE_04", "");
 define("LAN_AL_EMOTE_00", "Message inconnu relatif aux émoticônes");
 define("LAN_AL_EMOTE_01", "Pack actif d'émoticônes changé");
 define("LAN_AL_EMOTE_02", "Émoticônes activées");
@@ -133,7 +128,6 @@ define("LAN_AL_WELCOME_01", "Message de bienvenue créé");
 define("LAN_AL_WELCOME_02", "Message de bienvenue mis à jour");
 define("LAN_AL_WELCOME_03", "Message de bienvenue supprimé");
 define("LAN_AL_WELCOME_04", "Options du message de bienvenue modifiées");
-define("LAN_AL_WELCOME_05", "");
 define("LAN_AL_ADMINPW_01", "Mot de passe administrateur changé");
 define("LAN_AL_BANNER_00", "Message inconnu relatif aux bannières");
 define("LAN_AL_BANNER_01", "Menu des bannières mis à jour");
@@ -141,20 +135,16 @@ define("LAN_AL_BANNER_02", "Bannière créée");
 define("LAN_AL_BANNER_03", "Bannière mise à jour");
 define("LAN_AL_BANNER_04", "Bannière supprimée");
 define("LAN_AL_BANNER_05", "Configuration des bannières mise à jour");
-define("LAN_AL_BANNER_06", "");
 define("LAN_AL_IMALAN_00", "Message inconnu relatif aux images");
 define("LAN_AL_IMALAN_01", "Avatar supprimé");
 define("LAN_AL_IMALAN_02", "Tous les avatars et photos ont été supprimés");
 define("LAN_AL_IMALAN_03", "Avatar supprimé");
 define("LAN_AL_IMALAN_04", "Paramètres mis à jour");
-define("LAN_AL_IMALAN_05", "");
-define("LAN_AL_IMALAN_06", "");
 define("LAN_AL_LANG_00", "Message inconnu relatif aux langues");
 define("LAN_AL_LANG_01", "Préférences de langue modifiées");
 define("LAN_AL_LANG_02", "Tables de langue supprimées");
 define("LAN_AL_LANG_03", "Tables de langue créées");
 define("LAN_AL_LANG_04", "Zip de langue créé");
-define("LAN_AL_LANG_05", "");
 define("LAN_AL_META_01", "Mise à jour des balises meta");
 define("LAN_AL_DOWNL_01", "Options de téléchargement modifiées");
 define("LAN_AL_DOWNL_02", "Catégorie de téléchargement créée");
@@ -170,7 +160,6 @@ define("LAN_AL_DOWNL_11", "Limite de téléchargement supprimée");
 define("LAN_AL_DOWNL_12", "Miroir de téléchargement ajouté");
 define("LAN_AL_DOWNL_13", "Miroir de téléchargement mis à jour");
 define("LAN_AL_DOWNL_14", "Miroir de téléchargement supprimé");
-define("LAN_AL_DOWNL_15", "");
 define("LAN_AL_CPAGE_01", "Page/menu personnalisé ajouté");
 define("LAN_AL_CPAGE_02", "Page/menu personnalisé mis à jour");
 define("LAN_AL_CPAGE_03", "Page/menu personnalisé supprimé");
@@ -195,7 +184,6 @@ define("LAN_AL_MENU_05", "Menu - déplacer tout en haut");
 define("LAN_AL_MENU_06", "Menu - déplacer tout en bas");
 define("LAN_AL_MENU_07", "Menu - déplacer en haut");
 define("LAN_AL_MENU_08", "Menu - déplacer en bas");
-define("LAN_AL_MENU_09", "");
 define("LAN_AL_UPLOAD_01", "Fichier téléchargé supprimé");
 define("LAN_AL_UPLOAD_02", "Préférences de téléchargement modifiées");
 define("LAN_AL_SEARCH_01", "Paramètres de recherche mis à jour");
@@ -203,7 +191,6 @@ define("LAN_AL_SEARCH_02", "Préférences de recherche mises à jour");
 define("LAN_AL_SEARCH_03", "Mise à jour automatique des paramètres de recherche");
 define("LAN_AL_SEARCH_04", "Zones de recherche interrogeables mises à jour");
 define("LAN_AL_SEARCH_05", "Paramètres du gestionnaire de recherche mis à jour");
-define("LAN_AL_SEARCH_06", "");
 define("LAN_AL_NOTIFY_01", "Paramètres de notification mis à jour");
 define("LAN_AL_NEWS_01", "Article supprimé");
 define("LAN_AL_NEWS_02", "Catégorie d'articles supprimée");
@@ -221,14 +208,12 @@ define("LAN_AL_NEWS_13", "Réécriture d'articles supprimée");
 define("LAN_AL_FILEMAN_01", "Fichier(s) supprimé(s)");
 define("LAN_AL_FILEMAN_02", "Fichier(s) déplacé(s)");
 define("LAN_AL_FILEMAN_03", "Fichier(s) téléchargé(s)");
-define("LAN_AL_FILEMAN_04", "");
 define("LAN_AL_MAIL_01", "Test email envoyé");
 define("LAN_AL_MAIL_02", "Publipostage créé");
 define("LAN_AL_MAIL_03", "Paramètres de messagerie mis à jour");
 define("LAN_AL_MAIL_04", "Détails du publipostage supprimés");
 define("LAN_AL_MAIL_05", "Base de données de messagerie ordonnée");
 define("LAN_AL_MAIL_06", "Envoi de message activé");
-define("LAN_AL_MAIL_07", "");
 define("LAN_AL_PLUGMAN_01", "Extension installée");
 define("LAN_AL_PLUGMAN_02", "Extension mise à jour");
 define("LAN_AL_PLUGMAN_03", "Extension désinstallée");
@@ -240,10 +225,12 @@ define("LAN_AL_MISC_03", "Paramètres du menu 'connexion' mis à jour");
 define("LAN_AL_MISC_04", "Paramètres du menu 'commentaires' mis à jour");
 define("LAN_AL_MISC_05", "Paramètres du menu 'horloge' mis à jour");
 define("LAN_AL_MISC_06", "Paramètres du menu 'calendrier blog' mis à jour");
-define("LAN_AL_MISC_07", "");
 define("LAN_AL_PING_01", "Ping vers le service");
 define("LAN_AL_ADMINUI_01", "Insérer dans la table de la base de données Admin-UI : [x]");
 define("LAN_AL_ADMINUI_02", "Mis à jour dans la table de la base de données Admin-UI : [x]");
 define("LAN_AL_ADMINUI_03", "Suppression dans la table de la base de données Admin-UI : [x]");
 define("LAN_AL_ADMINUI_04", "Erreur dans la base de données Admin-UI : [x]");
 define("LAN_AL_BACKUP", "Sauvegarde de la base de données");
+define("LAN_AL_MEDIA_01", "Téléchargement de médias");
+define("LAN_AL_USET_100", "Admin connecté en tant qu'autre utilisateur");
+define("LAN_AL_USET_101", "Admin déconnecté en tant qu'autre utilisateur");

@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("UPLLAN_1", "Téléchargement supprimé de la liste.");
 define("UPLLAN_2", "Paramètres enregistrés dans la base de données");
 define("UPLLAN_4", "Aucune modification - pas de mise à jour");
@@ -37,7 +36,7 @@ define("UPLAN_IS", "est");
 define("UPLAN_ARE", "sont");
 define("UPLAN_COPYTODLS", "Copier vers Téléchargements");
 define("UPLLAN_51", "Liste des téléchargements");
-define("UPLLAN_52", "Cette page vous permet de créer un fichier pour gérer les autorisations de téléchargement de fichier. Le fichier est enregistré comme --SOURCE-- et doit être copié vers --DEST-- avant de prendre effet.");
+define("UPLLAN_52", "Cette page vous permet de créer un fichier pour gérer les autorisations de téléchargement de fichier. Le fichier est enregistré comme [x] et doit être copié vers [y] avant de prendre effet.");
 define("UPLLAN_54", "Extensions de fichier");
 define("UPLLAN_55", "Taille maximale pour le téléchargement");
 define("UPLLAN_56", "Générer le fichier");
@@ -52,6 +51,3 @@ define("UPLLAN_66", "Erreur de chemin de téléchargement");
 define("UPLLAN_68", "Erreur SQL :");
 define("UPLLAN_69", "Importé");
 define("UPLLAN_70", "Envoyé à [x]");
-
-
-?>

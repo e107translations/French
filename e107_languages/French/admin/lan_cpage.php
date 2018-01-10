@@ -9,7 +9,11 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
+define("CUSLAN_1", "Aperçu");
+define("CUSLAN_2", "Titre de la page");
+define("CUSLAN_3", "Objets par page");
+define("CUSLAN_4", "Champs personnalisés");
+define("CUSLAN_5", "(Nouveau livre)");
 define("CUSLAN_9", "Texte");
 define("CUSLAN_11", "Meta description");
 define("CUSLAN_12", "Créer Page/Menu");

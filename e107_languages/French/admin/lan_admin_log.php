@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("RL_LAN_002", "Logs circulaires");
 define("RL_LAN_005", "Configurer les logs circulaires");
 define("RL_LAN_008", "Logs circulaires actifs :");
@@ -36,13 +35,13 @@ define("RL_LAN_033", "Plus d'informations");
 define("RL_LAN_044", "Évènements à afficher par page");
 define("RL_LAN_045", "Supprimer les événements du journal administration plus vieux que");
 define("RL_LAN_046", "jours");
-define("RL_LAN_047", "Confirmez la suppression des évènements du journal administration antérieurs à&nbsp;");
+define("RL_LAN_047", "Confirmez la suppression des évènements du journal administration antérieurs à :");
 define("RL_LAN_049", "Supprimer les anciennes entrées");
 define("RL_LAN_050", "Erreur de paramètre - rien n'a été supprimé");
 define("RL_LAN_052", "Journal administration");
 define("RL_LAN_053", "Journal audit utilisateur");
 define("RL_LAN_054", "Rien à supprimer, ou erreur de base de données");
-define("RL_LAN_057", " - les événements antérieurs à --OLD-- (--NUM-- entrées) ont été supprimés");
+define("RL_LAN_057", " - les événements antérieurs à [x] ([y] entrées) ont été supprimés");
 define("RL_LAN_058", "Filtre de priorité :");
 define("RL_LAN_059", "Filtre de l'appelant :");
 define("RL_LAN_060", "Filtre d'adresses IP :");
@@ -67,13 +66,13 @@ define("RL_LAN_081", "Rebonds de messagerie");
 define("RL_LAN_082", "Utilisateurs exclus");
 define("RL_LAN_083", "Réinitialisations des rebonds de messagerie");
 define("RL_LAN_084", "Comptes temporaires");
+define("RL_LAN_087", "Détails");
 define("RL_LAN_090", "Télécharger ID");
 define("RL_LAN_091", "Horaires détaillés");
 define("RL_LAN_092", "Tranche horaire");
 define("RL_LAN_093", "(min.)");
 define("RL_LAN_094", "Analyse horaire détaillées");
 define("RL_LAN_096", "Diff (s)");
-define("RL_LAN_098", "Source");
 define("RL_LAN_100", "CID");
 define("RL_LAN_101", "PID");
 define("RL_LAN_103", "Objet");
@@ -97,6 +96,7 @@ define("RL_LAN_123", "Piste de vérification des groupes d'utilisateurs");
 define("RL_LAN_124", "Piste de vérification des actions d'utilisateurs");
 define("RL_LAN_125", "Maintenance des logs système");
 define("RL_LAN_126", "Au total, [x] entrées correspondent à la condition de recherche");
-
-
-?>
+define("RL_LAN_132", "Informatif");
+define("RL_LAN_133", "Avis");
+define("RL_LAN_134", "Attention");
+define("RL_LAN_135", "Fatal");

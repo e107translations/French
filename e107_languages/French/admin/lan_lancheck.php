@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("LAN_CHECK_2", "Vérifier");
 define("LAN_CHECK_3", "Vérification de");
 define("LAN_CHECK_4", "Fichier manquant !");
@@ -26,6 +25,10 @@ define("LAN_CHECK_26", "Noyau");
 define("LAN_CHECK_PAGE_TITLE", "Traductions");
 define("LAN_CHECK_27", "Nombre d'erreurs trouvées dans les modules linguistiques");
 define("LAN_CHECK_28", "Identique");
+define("LAN_CHECK_29", "Chaîne Identique (avertissement seulement)");
+define("LAN_CHECK_30", "Bbcodes manquants");
+define("LAN_CHECK_31", "Caractère(s) [ et/ou ] manquant(s)");
+define("LAN_CHECK_32", "Tags HTML manquants");
 define("LANG_LAN_23", "Créer un module linguistique (zip)");
 define("LANG_LAN_30", "Date de sortie");
 define("LANG_LAN_31", "Compatibilité");

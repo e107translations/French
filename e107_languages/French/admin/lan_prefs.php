@@ -192,8 +192,8 @@ define("PRFLAN_208", "Groupe utilisateur qui peut envoyer par email des liens ve
 define("PRFLAN_209", "Autres caractéristiques");
 define("PRFLAN_210", "Commentaires/Publications");
 define("PRFLAN_211", "L'email ne peut être déclaré facultatif s'il est nécessaire pour la validation ou la connexion");
-define("PRFLAN_212", "Valeur pour --FIELD--trop forte - changée en --VALUE--");
-define("PRFLAN_213", "Valeur pour --FIELD--trop faible - changée en --VALUE--");
+define("PRFLAN_212", "Valeur pour [x] trop forte - changée en [y]");
+define("PRFLAN_213", "Valeur pour [x] trop faible - changée en [y]");
 define("PRFLAN_214", "Logo du site");
 define("PRFLAN_215", "Groupe qui peut publier des <scripts> et tags similaires");
 define("PRFLAN_216", "(Nécessite aussi les droits de publication HTML)");
@@ -252,6 +252,8 @@ define("PRFLAN_268", "Édition en ligne en frontend");
 define("PRFLAN_269", "Les administrateurs rattachés à ce groupe (avec les droits administrateurs appropriés) auront la possibilité d'éditer le html directement via la zone de frontend.");
 define("PRFLAN_270", "Filtrage du formulaire de contact");
 define("PRFLAN_271", "Ignorer les soumissions de formulaire contenant ces mots ou phrases. Un par ligne.");
-
-
-?>
+define("PRFLAN_272", "Durée de la session");
+define("PRFLAN_273", "Durée de la session en secondes. 0 = jusqu'à ce que le navigateur soit fermé.");
+define("PRFLAN_274", "Le formulaire de contact ne sera visible que pour ce groupe d'utilisateurs.");
+define("PRFLAN_275", "Afficher cette page avec https (SSL) pour modifier cette option");
+define("PRFLAN_276", "PHP par défaut (de préférence)");
