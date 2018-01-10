@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("LAN_UPDATE_2", "Action");
 define("LAN_UPDATE_3", "Pas nécessaire");
 define("LAN_UPDATE_4", "Mise à jour de [x] vers [y]");
@@ -26,9 +25,9 @@ define("LAN_UPDATE_24", "Suppression du champs obsolète de la table :");
 define("LAN_UPDATE_25", "Suppression de la table obsolète :");
 define("LAN_UPDATE_26", "Extension du champ d'adresse IP :");
 define("LAN_UPDATE_27", "Ajout de table :");
-define("LAN_UPDATE_28", "--COUNT--emails sauvegardés déplacés");
+define("LAN_UPDATE_28", "[x] emails sauvegardés déplacés");
 define("LAN_UPDATE_29", "Selon votre configuration particulière, vous devrez peut-être exécuter le processus de mise à niveau plusieurs fois.");
-define("LAN_UPDATE_37", "Ajout de l'index --INDEX-- à la table --TABLE--");
+define("LAN_UPDATE_37", "Ajout de l'index [x] à la table [y]");
 define("LAN_UPDATE_38", "Mettre à jour les paramètres de la page d'accueil");
 define("LAN_UPDATE_40", "Mettre à jour la table des flux RSS");
 define("LAN_UPDATE_41", "Le champ fuseau horaire de l'utilisateur a été traité");
@@ -41,12 +40,9 @@ define("LAN_UPDATE_50", "Les préférences obsolètes ont été supprimées :");
 define("LAN_UPDATE_51", "Mise à jour de la définition de la table des extensions :");
 define("LAN_UPDATE_52", "Mise à jour de la table des téléchargements");
 define("LAN_UPDATE_53", "Mise à jour de la table des sites miroirs pour les téléchargements");
-define("LAN_UPDATE_54", "La table --TABLE-- est manquante - impossible d'ajouter l'index --INDEX--");
+define("LAN_UPDATE_54", "La table [y] est manquante - impossible d'ajouter l'index [x]");
 define("LAN_UPDATE_55", "Description");
 define("LAN_UPDATE_56", "Mise à jour système");
 define("LAN_UPDATE_57", "Avant de poursuivre, veuillez supprimer manuellement les dossiers obsolètes suivants de votre système :");
 define("LAN_UPDATE_CAPTION_PLUGIN", "Mises à jour des extensions");
 define("LAN_UPDATE_CAPTION_CORE", "Mises à jour du noyau");
-
-
-?>

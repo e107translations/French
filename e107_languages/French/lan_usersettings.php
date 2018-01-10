@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("PAGE_NAME", "Paramètres utilisateur");
 define("MAX_AVWIDTH", "La taille maximale de l'avatar (LxH) est");
 define("MAX_AVHEIGHT", " x");
@@ -28,17 +27,16 @@ define("LAN_USET_14", "Nom de connexion trop long. Veuillez en choisir un autre"
 define("LAN_USET_15", "Nom d'affichage trop long. Veuillez en choisir un autre");
 define("LAN_USET_16", "Cochez la case pour supprimer photo existante sans en télécharger une nouvelle");
 define("LAN_USET_17", "Nom d'affichage déjà utilisé. Veuillez en choisir un autre");
-define("LAN_USET_18", "Données utilisateur modifié par un administrateur : --ID--, nom de connexion : --LOGNAME--");
+define("LAN_USET_18", "Données utilisateur modifiées par un administrateur : [x], nom de connexion : [y]");
 define("LAN_USET_20", "Vous devez également modifier le mot de passe de l'utilisateur si vous modifiez le nom de connexion ou l'adresse mail");
 define("LAN_USET_21", "Veuillez valider les modifications en ressaisissant votre mot de passe :");
-define("LAN_USET_22", "Mot de passe invalide !");
 define("LAN_USET_23", "Laissez vide pour conserver le mot de passe actuel");
 define("LAN_USET_24", "Nouveau mot de passe :");
 define("LAN_USET_25", "Ressaisissez le nouveau mot de passe :");
 define("LAN_USET_26", "Télécharger votre avatar");
 define("LAN_USET_27", "Télécharger votre photo");
 define("LAN_USET_28", "Ceci s'affichera sur votre page de profil");
-define("LAN_USET_30", "Qu'est-ce que c'est?");
+define("LAN_USET_30", "Qu'est-ce que c'est ?");
 define("LAN_USET_31", "Renseignements sur l'enregistrement");
 define("LAN_USET_32", "Veuillez noter : toute image téléchargée sur ce serveur et jugée inappropriée par les administrateurs sera immédiatement supprimée.");
 define("LAN_USET_33", "Choisissez un avatar hébergé sur le site");
@@ -78,11 +76,8 @@ define("LAN_424", "Cliquez sur le bouton pour voir les avatars hébergés sur ce
 define("LAN_425", "Photo");
 define("LAN_426", "Ceci s'affichera sur votre page de profil");
 define("LAN_433", "URL de votre fichier XUP");
-define("LAN_434", "Qu'est-ce que c'est?");
+define("LAN_434", "Qu'est-ce que c'est ?");
 define("LAN_435", "Fichier XML Protocole Utilisateur");
 define("LAN_CUSTOMTITLE", "Titre personnalisé");
-define("LAN_USET_5", "Abonné à&nbsp;");
+define("LAN_USET_5", "Abonné à :");
 define("LAN_USET_6", "Abonnez-vous à notre(nos) liste(s) de dffusion et/ou aux sections de ce site.");
-
-
-?>

@@ -1,9 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/19 09:40:51
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 define("BANLAN_2", "Pas d'exclusion dans la liste.");
 define("BANLAN_3", "Exclusions existantes");
 define("BANLAN_5", "Entrer l'IP, adresse email ou hôte");
@@ -46,10 +51,10 @@ define("BANLAN_44", "Utiliser une date/heure d'expiration à partir de l'import"
 define("BANLAN_45", "Import");
 define("BANLAN_46", "Importer un fichier :");
 define("BANLAN_47", "Erreur de téléchargement de fichier");
-define("BANLAN_48", "--NUM-- entrées d'exclusions expirées ont été supprimées");
+define("BANLAN_48", "[y] entrées d'exclusions expirées ont été supprimées");
 define("BANLAN_49", "Import CSV : Citations déséquilibrées à la ligne");
 define("BANLAN_50", "Import CSV : Erreur dans l'écriture de l'enregistrement de l'exclusion à la ligne");
-define("BANLAN_51", "Import CSV : --NUM-- lignes ont été correctement importées à partir du fichier");
+define("BANLAN_51", "Import CSV : [y] lignes ont été correctement importées à partir du fichier");
 define("BANLAN_52", "Liste blanche");
 define("BANLAN_53", "Ajouter à la liste blanche");
 define("BANLAN_54", "Aucune entrée dans la liste blanche");
@@ -84,13 +89,12 @@ define("BANLAN_83", "Date/heure");
 define("BANLAN_84", "Adresse IP");
 define("BANLAN_85", "Informations complémentaires");
 define("BANLAN_86", "Événements liés à l'exclusion");
-define("BANLAN_87", "Total de --NUM-- entrées dans la liste");
+define("BANLAN_87", "Total de [y] entrées dans la liste");
 define("BANLAN_88", "Journal des exclusions vide");
 define("BANLAN_89", "Fichier journal supprimé");
 define("BANLAN_90", "Erreur dans la suppression du fichier journal");
 define("BANLAN_91", "Format de date/heure pour le journal des exclusions");
 define("BANLAN_92", "Voir la page de fonction strftime sur php.net");
-define("BANLAN_93", "");
 define("BANLAN_100", "Inconnu");
 define("BANLAN_101", "Manuel");
 define("BANLAN_102", "Flood");
@@ -117,3 +121,4 @@ define("BANLAN_122", "Liste noire");
 define("BANLAN_123", "Ajouter à la liste noire");
 define("BANLAN_124", "Expire");
 define("BANLAN_125", "Utiliser mon adresse IP");
+define("BANLAN_126", "IP / Mail");

@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/11/14 10:08:40
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 define("NLLAN_04", "L'extension du bulletin d'informations a été installée avec succès. Pour la configuration, retournez à la page d'administration principale et cliquez sur 'bulletin d'informations' dans la section extensions.");
 define("NLLAN_05", "Aucun bulletin d'informations défini actuellement");
@@ -25,14 +31,14 @@ define("NLLAN_33", "Texte");
 define("NLLAN_36", "Mettre à jour la publication du bulletin d'informations");
 define("NLLAN_37", "Créer une publication du bulletin d'informations");
 define("NLLAN_39", "Publication du bulletin d'informations enregistrée dans la base de données - pour l'envoyer, cliquez sur le bouton 'Émission de publication' dans le menu Options.");
-define("NLLAN_40", "Envoi ajouté à la file d'attente des envois - publication envoyée à --COUNT-- abonnés.");
+define("NLLAN_40", "Envoi ajouté à la file d'attente des envois - publication envoyée à [x] abonnés.");
 define("NLLAN_41", "Aucun abonné trouvé - envoi annulé");
 define("NLLAN_44", "Page principale du bulletin d'informations");
 define("NLLAN_45", "Créer un bulletin d'informations");
 define("NLLAN_46", "Créer une liste de mails");
 define("NLLAN_47", "Options du bulletin d'informations");
 define("NLLAN_48", "Abonnés au bulletin d'informations");
-define("NLLAN_49", "Bulletin d'informations : ");
+define("NLLAN_49", "Bulletin d'informations :");
 define("NLLAN_54", "Envoyer");
 define("NLLAN_56", "ID de bulletin d'informations non disponible");
 define("NLLAN_62", "L'utilisateur est exclu ! (ou non complètement inscrit)");

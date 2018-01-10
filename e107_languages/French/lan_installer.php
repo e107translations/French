@@ -126,6 +126,5 @@ define("LANINS_141", "Veuillez renseigner le formulaire avec vos paramètres MyS
 define("LANINS_142", "IMPORTANT : veuillez renommer le fichier e107.htaccess en .htaccess");
 define("LANINS_144", "IMPORTANT : veuillez copier/coller le contenu de [b]e107.htaccess[/b] dans votre fichier [b].htaccess[/b]. Attention à ne PAS écraser des données potentiellement  existantes.");
 define("LANINS_145", "e107 v2.x nécessite que PHP [x] soit installé. Veuillez contacter votre hébergeur ou bien consultez les informations sur [y] avant de poursuivre.");
-
-
-?>
+define("LANINS_146", "Thème de la zone d'administration");
+define("LANINS_147", "Administration");

@@ -9,12 +9,9 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("TMCEALAN_1", "Coller comme texte par défaut");
 define("TMCEALAN_2", "Correcteur orthographique du navigateur");
 define("TMCEALAN_3", "Activez cette option si le correcteur orthographique interne du navigateur doit être utilisé.");
 define("TMCEALAN_4", "Blocs visuels");
 define("TMCEALAN_5", "Activer pour rendre les blocs html visibles lors de l'édition.");
-
-
-?>
+define("TMCEALAN_6", "Classe CSS pour la mise en évidence du code.");

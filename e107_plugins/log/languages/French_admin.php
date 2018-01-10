@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("ADSTAT_LAN_1", "Cette extension enregistrera toutes les visites de votre site et construira des écrans de statistiques détaillées basés sur les informations recueillies.");
 define("ADSTAT_LAN_2", "L'enregistreur de statistiques a été installé avec succès. Pour l'activer, allez à l'écran de configuration et cliquez sur Activer.<br />
 <b>Vous devez définir les autorisations du dossier e107_plugins/journal/logs à 777 (chmod 777)</b>");
@@ -90,6 +89,11 @@ define("ADSTAT_LAN_83", "Les entrées d'enregistrements ID suivants sont supprim
 define("ADSTAT_LAN_84", "Cette procédure va remplacer les résumés statistiques des journaux de votre base de données. (les fichiers journaux quotidiens ne sont pas modifiés). Une fois remplacées, les données ne peuvent être restaurées. Veuillez sauvegarder ou exporter votre base de données au préalable.");
 define("ADSTAT_LAN_85", "[x] fichiers journaux ont été trouvés. Cliquez le bouton ci-dessous pour procéder avec ces fichiers.");
 define("ADSTAT_LAN_86", "Nombre total");
+define("ADSTAT_LAN_87", "Reconstituer les résumés statistiques");
+define("ADSTAT_LAN_88", "Reconstituer les statistiques");
+define("ADSTAT_LAN_89", "Reconstituer");
+define("ADSTAT_LAN_90", "Données sauvegardées dans la base de données avec id: [x]");
+define("ADSTAT_LAN_91", "Impossible de sauvegarder les données dans la base de données avec id: [x]");
 
 
 ?>
