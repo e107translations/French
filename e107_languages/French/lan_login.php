@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("LAN_LOGIN_1", "Nom d'utilisateur");
 define("LAN_LOGIN_2", "Mot de passe utilisateur");
 define("LAN_LOGIN_3", "Serveur protégé");
@@ -45,6 +44,4 @@ define("LAN_LOGIN_32", "Vous voyez ce message car vous êtes actuellement connec
 define("LAN_LOGIN_33", "[Retour à la page d'accueil]");
 define("LAN_LOGIN_34", "L'inscription et/ou la connexion utilisateur est actuellement désactivée.");
 define("LAN_LOGIN_35", "[Activer la]");
-
-
-?>
+define("LAN_LOGIN_36", "Les mails envoyés à [x] ne sont pas délivrés. Veuillez [vérifier que votre adresse mail est correcte].");

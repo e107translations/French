@@ -9,11 +9,11 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("LAN_DL_OPTIONS", "Options");
 define("LAN_DL_DOWNLOAD_OPT_GENERAL", "Général");
 define("LAN_DL_DOWNLOAD_OPT_BROKEN", "Rapport");
 define("LAN_DL_DOWNLOAD_OPT_AGREE", "Accords");
+define("LAN_DL_DOWNLOAD_OPT_SECURITY", "Protection");
 define("LAN_DL_UPLOAD", "Télécharger");
 define("LAN_DL_USE_PHP", "Utiliser PHP");
 define("LAN_DL_USE_PHP_INFO", "Vérifier ceci enverra toutes les demandes de téléchargement via PHP");
@@ -147,6 +147,12 @@ define("DOWLAN_HELP_7", "Aide pour les sites miroirs");
 define("DOWLAN_HELP_8", "Aide pour la liste des téléchargements");
 define("DOWLAN_HELP_9", "Aide pour les types de téléchargements");
 define("DOWLAN_HELP_10", "Aide pour les options de téléchargement");
-
-
-?>
+define("LAN_DL_SECURITY_DESCRIPTION", "Les téléchargements peuvent utiliser des fonctions de protection d'URL côté serveur pour empêcher le référencement et / ou imposer l'expiration des liens. " . " Cette section doit être configurée avant que le serveur de téléchargement ne soit configuré pour réduire les risques d'interruption pour les téléchargeurs.");
+define("LAN_DL_SECURITY_MODE", "Mode de protection d'URL");
+define("LAN_DL_SECURITY_MODE_NONE", "Aucun (par défaut)");
+define("LAN_DL_SECURITY_MODE_NGINX_SECURELINKMD5", "NGINX secure_link_md5");
+define("LAN_DL_SECURITY_NGINX_SUPPORTED_VARIABLES_TOGGLE", "Cliquer pour basculer la liste des variables NGINX supportées");
+define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION", "<a target='_blank' href='https://nginx.org/en/docs/http/ngx_http_secure_link_module.html#secure_link_md5'>NGINX secure_link_md5 expression</a>");
+define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION_HELP", "Même expression que celle configurée sur le serveur");
+define("LAN_DL_SECURITY_LINK_EXPIRY", "Durée de la validité en secondes");
+define("LAN_DL_SECURITY_LINK_EXPIRY_HELP", "Nombre de secondes que le lien de téléchargement doit durer après avoir été généré. " . " Seulement efficace si l'expression prend en charge l'heure d'expiration. " . " Par défaut très longtemps si ce champ est laissé vide.");

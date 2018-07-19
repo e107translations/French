@@ -103,6 +103,7 @@ define("LAN_FILES", "Fichiers");
 define("LAN_SIZE", "Taille");
 define("LAN_VERSION", "Version");
 define("LAN_DOWNLOAD", "Télécharger");
+define("LAN_DOWNLOAD_NO_PERMISSION", "Fichier non trouvé ou vous n'avez pas la permission de télécharger ce fichier !");
 define("LAN_WEBSITE", "Site web");
 define("LAN_COMMENTS", "Commentaires");
 define("LAN_LOCATION", "Emplacement");

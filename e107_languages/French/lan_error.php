@@ -56,6 +56,7 @@ define("LAN_ERROR_43", "Site indisponible temporairement");
 define("LAN_ERROR_44", "Logo du site");
 define("LAN_ERROR_45", "Que pouvez-vous faire maintenant ?");
 define("LAN_ERROR_46", "Consultez les journaux pour les détails.");
-
-
-?>
+define("LAN_ERROR_47", "Erreur de validation : le titre de l'actualité ne peut pas être vide !");
+define("LAN_ERROR_48", "Erreur de validation : l'URL SEF de l'actualité est obligatoire et ne peut pas être vide !");
+define("LAN_ERROR_49", "Erreur de validation : l'URL SEF de l'actualité est un champ unique - la valeur actuelle est déjà utilisée ! Veuillez choisir une autre valeur d'URL SEF.");
+define("LAN_ERROR_50", "Erreur de validation : la catégorie de l'actualité ne peut pas être vide !");
