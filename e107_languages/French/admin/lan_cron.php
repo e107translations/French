@@ -42,7 +42,6 @@ define("LAN_CRON_20_3", "Il est recommandé de maintenir le système à jour.");
 define("LAN_CRON_20_4", "Mise à jour de ce dépôt Git");
 define("LAN_CRON_20_5", "Mettre à jour cette installation e107 avec les fichiers les plus récents de Github.");
 define("LAN_CRON_20_6", "Recommandé pour les développeurs uniquement.");
-define("LAN_CRON_20_7", "Attention !");
 define("LAN_CRON_20_8", "Peut entraîner l'instabilité du site !");
 define("LAN_CRON_30", "Toutes les minutes");
 define("LAN_CRON_31", "Toutes les autres minutes");
@@ -62,6 +61,8 @@ define("LAN_CRON_51", "Heure(s) :");
 define("LAN_CRON_52", "Jour(s) :");
 define("LAN_CRON_53", "Mois :");
 define("LAN_CRON_54", "Jour(s) de la semaine :");
+define("LAN_CRON_55", "Échec de sauvegarde de la base de données");
+define("LAN_CRON_56", "Sauvegarde de la base de données terminée");
 define("LAN_CRON_60", "Accéder au panneau d'automatisation");
 define("LAN_CRON_61", "Générer un nouveau mot de passe d'automatisation");
 define("LAN_CRON_62", "Exécuter la fonction de configuration [b][x][/b]");
@@ -70,6 +71,3 @@ define("LAN_CRON_64", "Un administrateur peut automatiser les tâches à l'aide 
 define("LAN_CRON_BACKUP", "Sauvegarde");
 define("LAN_CRON_LOGGING", "Enregistrement");
 define("LAN_CRON_RUNNING", "En cours d'exécution");
-
-
-?>

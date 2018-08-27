@@ -126,6 +126,9 @@ define("FORLAN_213", "Envoi");
 define("FORLAN_214", "Laisser vide pour une génération automatique à partir du titre ci-dessus");
 define("FORLAN_215", "Pas installé !");
 define("FORLAN_216", "(Nouveau parent)");
-
-
-?>
+define("FORLAN_217", "Système par défaut");
+define("FORLAN_218", "Zone de texte");
+define("FORLAN_219", "Éditeur de texte enrichi");
+define("FORLAN_220", "Rédacteur en chef");
+define("FORLAN_221", "Quel éditeur doit être utilisé pour créer/éditer des messages?");
+define("FORLAN_222", "Éditeur de réponse rapide");

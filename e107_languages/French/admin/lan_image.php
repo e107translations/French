@@ -69,6 +69,7 @@ define("IMALAN_66", "Nom de fichier");
 define("IMALAN_68", "Fermer");
 define("IMALAN_69", "Dossier");
 define("IMALAN_70", "Dossier non-système trouvé !");
+define("IMALAN_72", "Icônes");
 define("IMALAN_73", "Qualité de la miniature");
 define("IMALAN_74", "Définir aussi faible que possible avant que la perte de qualité ne soit apparente. Max. 100");
 define("IMALAN_75", "Largeur de l'avatar");

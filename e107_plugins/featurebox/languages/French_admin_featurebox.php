@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("FBLAN_08", "Texte du message");
 define("FBLAN_12", "Mode");
 define("FBLAN_13", "Portée aléatoire des messages");
@@ -26,6 +25,6 @@ define("FBLAN_30", "Modèle de catégorie");
 define("FBLAN_31", "Aléatoire");
 define("FBLAN_32", "Paramètres (optionnel)");
 define("FBLAN_33", "Paramètres Javascript optionnels (format sujet à changement)");
-
-
-?>
+define("FBLAN_34", "Non attribué");
+define("FBLAN_35", "Carrousel");
+define("FBLAN_36", "Onglets");
