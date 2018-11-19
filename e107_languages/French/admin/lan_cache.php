@@ -29,7 +29,7 @@ define("CACLAN_21", "Le cache de la structure de la base de données contient de
 define("CACLAN_22", "Cache des miniatures");
 define("CACLAN_23", "Les fichiers de cache des miniatures contient des données images binaires. Ils sont là pour économiser beaucoup de travail de l'UC du serveur.");
 define("CACLAN_24", "Vider le cache de la structure de la base de données");
-define("CACLAN_25", "Vider le cache des miniature");
+define("CACLAN_25", "Vider le cache des miniatures");
 define("CACLAN_26", "Vider tous les caches");
 define("CACLAN_27", "Vider le cache du navigateur");
 define("CACLAN_28", "Cache JS/CSS");

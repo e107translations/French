@@ -122,4 +122,4 @@ define("BANLAN_123", "Ajouter à la liste noire");
 define("BANLAN_124", "Expire");
 define("BANLAN_125", "Utiliser mon adresse IP");
 define("BANLAN_126", "IP / Mail");
-define("BANLAN_127", "Supprimer tous les [x] échecs de connexion de la base de données");
+define("BANLAN_127", "Supprimer les [x] échecs de connexion de la base de données");
