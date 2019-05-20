@@ -32,8 +32,8 @@ define("LANG_LAN_21", "Modules linguistiques");
 define("LANG_LAN_25", "Statut de création du module linguistique");
 define("LANG_LAN_26", "Ne charger des fichiers de langue que pour la langue en cours");
 define("LANG_LAN_27", "Si activé et qu'une langue requise est introuvable, il y aura une erreur");
-define("LANG_LAN_28", "Cochez cette case si vous êtes un [traducteur e107 agréé]");
-define("LANG_LAN_EML", "Veuillez envoyez votre module linguistique à :");
+//define("LANG_LAN_28", "Cochez cette case si vous êtes un [traducteur e107 agréé]");
+//define("LANG_LAN_EML", "Veuillez envoyez votre module linguistique à :");
 define("LANG_LAN_32", "Langues installées");
 define("LANG_LAN_33", "Afficher uniquement les erreurs lors de la vérification");
 define("LANG_LAN_50", "Langue de l'interface de la zone d'administration");
@@ -66,3 +66,4 @@ define("LANG_LAN_150", "[b]Rechercher dans le noyau ENTIER avant de commenter TO
 define("LANG_LAN_151", "Disponible");
 define("LANG_LAN_152", "Avec la permission de l'[équipe de traductions e107]");
 define("LANG_LAN_153", "Pré-version");
+define("LANG_LAN_154", "Le pack de langues a été créé. Vous pouvez maintenant le soumettre au dépôt Github en suivant les instructions [ici].");

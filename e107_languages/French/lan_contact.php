@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("LANCONTACT_00", "Contactez-nous");
 define("LANCONTACT_01", "Détails de contact");
 define("LANCONTACT_02", "Formulaire de contact");
@@ -31,6 +30,7 @@ define("LANCONTACT_17", "Veuillez renseigner votre nom");
 define("LANCONTACT_18", "Veuillez renseigner votre adresse mail.");
 define("LANCONTACT_19", "Veuillez renseigner l'objet de votre message.");
 define("LANCONTACT_20", "Veuillez renseigner votre message à notre intention.");
-
-
-?>
+define("LANCONTACT_21", "Je consens à ce que ce site Web stocke mes informations soumises afin qu'ils puissent répondre à ma demande");
+define("LANCONTACT_22", "Politique de confidentialité");
+define("LANCONTACT_23", "Vous pouvez trouver notre politique de confidentialité ici: [x]");
+define("LANCONTACT_24", "Accord RGPD");

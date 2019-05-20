@@ -25,12 +25,9 @@ define("CHATBOX_L14", "Emoticônes");
 define("CHATBOX_L15", "Message trop long, ou message vide soumis");
 define("CHATBOX_L17", "Message en doublon");
 define("CHATBOX_L18", "Messages de boîte de discussion modérés");
-define("CHATBOX_L19", "Vous pouvez publier seulement une fois toutes les ". (FLOODPROTECT ? FLOODTIMEOUT: 'n/a')." secondes");
+define("CHATBOX_L19", "Vous pouvez publier seulement une fois toutes les [x] secondes");
 define("CHATBOX_L20", "Boîte de discussion (tous les messages)");
 define("CHATBOX_L22", "sur");
 define("CHATBOX_L24", "Vous n'avez pas les autorisations appropriées pour afficher cette page.");
 define("CHATBOX_L25", "[ ce message a été bloqué par un administrateur]");
 define("LAN_CHATBOX_100", "Tapez votre message ici.");
-
-
-?>

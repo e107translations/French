@@ -257,3 +257,8 @@ define("PRFLAN_273", "Durée de la session en secondes. 0 = jusqu'à ce que le n
 define("PRFLAN_274", "Le formulaire de contact ne sera visible que pour ce groupe d'utilisateurs.");
 define("PRFLAN_275", "Afficher cette page avec https (SSL) pour modifier cette option");
 define("PRFLAN_276", "PHP par défaut (de préférence)");
+define("PRFLAN_277", "Paramètres RGPD");
+define("PRFLAN_278", "URL de la politique de confidentialité");
+define("PRFLAN_279", "Assurez-vous que l'URL existe ! Il est préférable d'utiliser une URL absolue. Ce paramètre sera utilisé dans tous les endroits nécessitant le consentement de l'utilisateur (par exemple, inscription, formulaire / menu de contact, etc.).");
+define("PRFLAN_280", "URL des conditions générales du site");
+define("PRFLAN_281", "Les 2 liens ci-dessus sont utilisés sur les différentes pages de ce site (ex : inscription et formulaire/menu de contact).\nVeuillez créer 2 pages (si ce n'est déjà fait) qui contiennent votre 'Politique de confidentialité' et les 'Termes et conditions' du site web.\nIl existe plusieurs sites Web qui peuvent générer ces textes pour vous.\nCopiez les urls de ce site Web dans les champs ci-dessus (par exemple /page/politique de confidentialité ou /page/terms-and-conditions).\nAssurez-vous simplement que les pages et les urls existent et fonctionnent !");

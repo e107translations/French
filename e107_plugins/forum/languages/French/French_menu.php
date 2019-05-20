@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("LAN_FORUM_MENU_001", "Publié par");
 define("LAN_FORUM_MENU_002", "Aucun message actuellement");
 define("LAN_FORUM_MENU_003", "Nouvelle configuration du menu des messages du forum entregistrée");
@@ -23,6 +22,4 @@ define("LAN_FORUM_MENU_012", "Age maximum des messages affichés");
 define("LAN_FORUM_MENU_013", "Utilisez zéro sur un site calme; définir une valeur en jours réduira le temps de base de données sur un site occupé");
 define("LAN_FORUM_MENU_014", "Hauteur de calque de défilement (en pixels)");
 define("LAN_FORUM_MENU_015", "Laissez vide pour aucun défilement");
-
-
-?>
+define("LAN_FORUM_MENU_016", "Aucune catégorie de forum n'a encore été créée !");

@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("LANDT_01", "année");
 define("LANDT_02", "mois");
 define("LANDT_03", "semaine");
@@ -29,7 +28,7 @@ define("LANDT_08s", "mins");
 define("LANDT_09", "sec");
 define("LANDT_09s", "secs");
 define("LANDT_AGO", "Depuis");
+define("LANDT_IN", "en");
 define("LANDT_10", "Juste maintenant");
-
-
-?>
+define("LANDT_XAGO", "[x] avant");
+define("LANDT_INX", "dans [x]");

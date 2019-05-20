@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-define("e_PAGETITLE", "Forum");
 define("LAN_FORUM_0002", "Sujets");
 define("LAN_FORUM_0003", "Réponses");
 define("LAN_FORUM_0004", "Dernier message");
@@ -264,6 +263,4 @@ define("LAN_FORUM_8026", "Échec de décollage du fil");
 define("LAN_FORUM_8027", "Aucun action choisie");
 define("LAN_FORUM_8028", "Retour");
 define("LAN_FORUM_8029", "Nouveau sujet créé !");
-
-
-?>
+define("LAN_FORUM_8030", "Impossible de supprimer le message (autorisation du modérateur requise)");

@@ -12,7 +12,7 @@
 define("LAN_LOGIN_1", "Nom d'utilisateur");
 define("LAN_LOGIN_2", "Mot de passe utilisateur");
 define("LAN_LOGIN_3", "Serveur protégé");
-define("LAN_LOGIN_4", "Veuillez vous inscrire");
+define("LAN_LOGIN_4", "Veuillez vous identifier");
 define("LAN_LOGIN_5", "Cliquez ici pour vous inscrire");
 define("LAN_LOGIN_6", "Les inscriptions sont suspendues pour le moment");
 define("LAN_LOGIN_7", "Entrer le code de sécurité");
@@ -45,3 +45,4 @@ define("LAN_LOGIN_33", "[Retour à la page d'accueil]");
 define("LAN_LOGIN_34", "L'inscription et/ou la connexion utilisateur est actuellement désactivée.");
 define("LAN_LOGIN_35", "[Activer la]");
 define("LAN_LOGIN_36", "Les mails envoyés à [x] ne sont pas délivrés. Veuillez [vérifier que votre adresse mail est correcte].");
+define("LAN_LOGIN_37", "Votre compte n'a pas encore été activé par un administrateur de site.	");
