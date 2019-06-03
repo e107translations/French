@@ -221,7 +221,6 @@ define("LAN_ROOT", "Racine");
 define("LAN_LINE", "Ligne");
 define("LAN_SHORTCODES", "Shortcodes");
 define("LAN_DISPLAYOPT", "Modifier les options d'affichage");
-//define("LAN_DATESTAMP", "Date de publication");//Déplacé vers French.php
 define("LAN_TIMESTAMP", "Timestamp Unix");
 define("LAN_PAGE", "PAGE");
 define("LAN_AGENT", "AGENT");
@@ -293,7 +292,6 @@ define("LAN_COPY", "Copier");
 define("LAN_KEYWORDS", "Mots-clés");
 define("LAN_TEMPLATE", "Modèle");
 define("LAN_TEMPLATES", "Modèles");
-//define("LAN_CATEGORIES", "Catégories");//Déplacé vers French.php
 define("LAN_DEMO_FORBIDDEN", "Les modifications sur cette page ne sont pas possibles en mode démo.");
 define("LAN_COPYRIGHT", "Droit d'auteur");
 define("LAN_MANAGEPERMS", "Gérer les autorisations");
@@ -384,7 +382,6 @@ define("LAN_MAINTENANCE", "Maintenance");
 define("LAN_RETURN_TO_FRONT_PANEL", "Revenir au panneau d'administration");
 define("LAN_CHANGE_LANGUAGE", "Changer la langue");
 define("LAN_NEWER_VERSION_OF_X", "Une nouvelle version du [x] [y] est disponible au téléchargement.");
-//define("LAN_SUBJECT", "Sujet");//Déplacé vers French.php
 define("LAN_ITEM", "article");
 define("LAN_LOCK", "Bloquer");
 define("LAN_SYSTEM_USER", "Utilisateur du système");
@@ -407,3 +404,4 @@ define("LAN_RECALCULATE_COMMENT_COUNT", "Recalculer le nombre de commentaires");
 define("LAN_SUCC_RECALCULATE_COMMENT_COUNT", "Le nombre de commentaires a été recalculé avec succès !");
 define("LAN_NO_RESULTS_FOUND", "Aucun résultat trouvé.");
 define("LAN_UI_DROPZONE_DROP_FILES", "Déposer des fichiers ici pour les télécharger");
+define("LAN_DOWNLOAD_COMPLETE", "Téléchargement terminé !");

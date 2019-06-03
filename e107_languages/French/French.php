@@ -117,7 +117,7 @@ define("LAN_MESSAGE", "Message");
 define("LAN_USER", "Utilisateur");
 define("LAN_EMAIL", "Adresse mail");
 define("LAN_WROTE", "a écrit");
-define("LAN_RE_ORDER", "Re-commander");
+define("LAN_RE_ORDER", "Réorganiser");
 define("LAN_RELATED", "Associé");
 define("LAN_CLOSE", "Réduire");
 define("LAN_EXPAND", "Développer");
