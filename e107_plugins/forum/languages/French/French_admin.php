@@ -108,7 +108,7 @@ define("FORLAN_184", "Autorisation de création de fils de discussion");
 define("FORLAN_185", "Indique qui peut créer de nouveaux fils de discussion");
 define("FORLAN_186", "Fils de discussion par page");
 define("FORLAN_187", "Nombre de fils de discussion affichés par page");
-define("FORLAN_189", "Cliquez sur le bouton 'supprimer' pour supprimer le rapport.<br /><br />Cliquez sur le bouton 'voir' pour voir le sujet/fil");
+define("FORLAN_189", "Cliquez sur le bouton 'supprimer' pour supprimer le rapport.<br /><br />Cliquez sur le bouton 'voir' pour voir le sujet/fil.<br /><br />Pour être averti de tout nouveau rapport, veuillez vous reporter à la section [paramètres de notification].");
 define("FORLAN_200", "Suivi du sujet");
 define("FORLAN_201", "Activez ceci pour permettre à vos utilisateurs de suivre les sujets");
 define("FORLAN_202", "Notifications par mail de suivi du sujet");

@@ -34,9 +34,8 @@ define("LAN_NEWS_86", "Articles plus anciens");
 define("LAN_NEWS_87", "Articles plus récents");
 define("LAN_NEWS_462", "Aucun article pour le mois spécifié");
 define("LAN_NEWS_463", "Il n'y a aucun article dans la catégorie spécifiée - veuillez vérifier prochainement.");
+define("LAN_NEWS_464", "Pas d'article pour le jour spécifié");
 define("LAN_NEWS_100", "Le");
 define("LAN_NEWS_307", "Total de publications dans cette catégorie :");
 define("LAN_NEWS_308", "Peut-être cherchez-vous une des actualités ci-dessous ?");
-
-
-?>
+define("LAN_NEWS_309", "Tag");

@@ -405,3 +405,9 @@ define("LAN_SUCC_RECALCULATE_COMMENT_COUNT", "Le nombre de commentaires a été 
 define("LAN_NO_RESULTS_FOUND", "Aucun résultat trouvé.");
 define("LAN_UI_DROPZONE_DROP_FILES", "Déposer des fichiers ici pour les télécharger");
 define("LAN_DOWNLOAD_COMPLETE", "Téléchargement terminé !");
+define("LAN_UI_FILTER_SEARCH_IN_FIELD", "Rechercher dans le champ");
+define("LAN_ROBOTS", "Robots");
+define("LAN_ROBOTS_NOINDEX", "Empêcher les moteurs de recherche d'indexer cet élément.");
+define("LAN_ROBOTS_NOFOLLOW", "Empêchez les moteurs de recherche de suivre les liens dans cet élément.");
+define("LAN_ROBOTS_NOARCHIVE", "Empêche les copies en cache de cet élément d'apparaître dans les résultats de recherche.");
+define("LAN_ROBOTS_NOIMAGE", "Empêcher les moteurs de recherche d'indexer les images de cet article.");

@@ -19,6 +19,7 @@ define("UE_LAN_8", "Langue");
 define("UE_LAN_9", "Liste prédéfinie");
 define("UE_LAN_10", "Cases à cocher");
 define("UE_LAN_13", "Pays");
+define("UE_LAN_14", "Interface intuitive (WYSIWIG)");
 define("UE_LAN_21", "Nom");
 define("UE_LAN_22", "Type");
 define("UE_LAN_23", "Utilisation");
@@ -52,6 +53,3 @@ define("UE_LAN_MALE", "Homme");
 define("UE_LAN_FEMALE", "Femme");
 define("UE_LAN_COMMENT", "Commentaires");
 define("UE_LAN_COMMENT_DESC", "Zone de commentaire");
-
-
-?>

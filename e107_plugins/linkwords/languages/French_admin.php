@@ -1,25 +1,22 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2019/11/04 15:00:07
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 define("LWLAN_4", "Aucun mot-lien défini actuellement.");
 define("LWLAN_5", "Mots");
 define("LWLAN_6", "Lien");
 define("LWLAN_7", "Activer ?");
-define("LWLAN_11", "Mots-liens existants");
-define("LWLAN_18", "Êtes-vous sûr de vouloir supprimer ce mot-lien ?");
-define("LWLAN_20", "Impossible de trouver cette entrée mot-lien.");
 define("LWLAN_21", "Mot à associer au lien automatiquement (ou liste de mots séparés par des virgules)");
-define("LWLAN_22", "Activer ?");
-define("LWLAN_23", "Administration des mots-liens");
-define("LWLAN_24", "Gérer les mots");
 define("LWLAN_26", "Zones dans lesquelles activer les mots-liens");
-define("LWLAN_27", "Il s'agit du 'contexte' du texte affiché");
 define("LWLAN_28", "Pages sur lesquelles désactiver les mots-liens");
-define("LWLAN_29", "Même format que le menu de contrôle de visibilité. Une correspondance par ligne. Spécifiez une URL partielle ou complète. Terminez par '!' pour une correspondance exacte de la partie terminale du lien");
-define("LWLAN_31", "Ajouter/modifier un mot-lien");
 define("LWLAN_33", "Zones de titre");
 define("LWLAN_34", "Résumés de l'élément");
 define("LWLAN_35", "Corps du texte");
@@ -27,22 +24,16 @@ define("LWLAN_36", "Descriptions (liens, etc.)");
 define("LWLAN_40", "Titres entrés par l'utilisateur (par exemple forum)");
 define("LWLAN_41", "Corps de texte entrés par l'utilisateur (par exemple forum)");
 define("LWLAN_50", "Info-bulle");
-define("LWLAN_51", "Inactif");
 define("LWLAN_52", "Mot-lien uniquement");
 define("LWLAN_53", "Info-bulle uniquement");
 define("LWLAN_54", "Mot-lien et info-bulle");
 define("LWLAN_55", "Ouvrir le lien dans une nouvelle fenêtre");
-define("LWLAN_56", "Ouvrir dans une nouvelle page");
 define("LWLAN_58", "Crochet de préférence converti au format 0.8");
 define("LWLAN_59", "Activer les fonctionnalités Ajax");
-define("LWLAN_60", "LW ID");
-define("LWLAN_62", "Info-bulle (LW ID.)");
-define("LWLAN_63", "Seulement des entiers positifs");
 define("LWLAN_64", "Supprimer le lien sur la page en cours");
-define("LWLAN_65", "Lorsque coché, supprime le lien cliquable s'il pointe vers la page en cours");
-define("LAN_LW_HELP_00", "Aide mots-liens");
-define("LAN_LW_HELP_01", "
-  <b>Zones à activer</b><br />
+define("LWLAN_66", "Classe CSS personnalisée");
+define("LWLAN_67", "Nombre max. de liens/suggestions");
+define("LAN_LW_HELP_01", "  <b>Zones à activer</b><br />
   plusieurs zones de texte ont un 'contexte' associé, et les mots-liens ne s'afficheront que dans les zones correspondant à ce contexte. <br /> <br />
   <b>Désactiver les mots-liens</b><br />
   Les mots-liens peuvent être désactivés sur des pages particulières ou des pages correspondant à un modèle. Entrez les ici (même syntaxe que pour les menus), un modèle par ligne.
@@ -52,7 +43,7 @@ define("LAN_LW_HELP_01", "
   Les info-bulles peuvent utiliser Ajax pour obtenir des informations à afficher. Cela nécessite généralement un codage personnalisé. <br /> <br />
   <b>Supprimer le lien sur la page en cours</b> <br />
   Habituellement, il est inutile que l'utilisateur puisse cliquer sur un lien s'il est déjà sur la page. Cochez cette case pour supprimer l'option,<br />");
-  define("LAN_LW_HELP_02", "Définir les mots qui deviennent des liens cliquables, ou qui affichent du texte au survol de la souris, ici <br /> <br />
+define("LAN_LW_HELP_02", "Définir les mots qui deviennent des liens cliquables, ou qui affichent du texte au survol de la souris, ici <br /> <br />
   <b><u>Mot vers lien</u></b> <br />
   C'est insensible à la casse. Pour plusieurs mots désignant les mêmes liens et info-bulles, séparez-les par des virgules (sans espace) <br /> <br />
   <b><u>Lien</u></b> <br />
@@ -63,3 +54,14 @@ define("LAN_LW_HELP_01", "
   Il s'agit d'un identifiant numérique optionnel pouvant être utilisé lors des traitements Ajax. Si laisser vide, le numéro d'enregistrement de base de données est utilisé. <br /> <br />
   <b><u>Activer ?</u></b><br />
   Définit quelles options sont actives.");
+define("LAN_LW_HELP_03", "Habituellement, il est inutile pour l'utilisateur de pouvoir cliquer sur un lien s'il se trouve déjà sur la page vers laquelle il est lié. Lorsque cette option est désactivée, les mots liens ne sont pas générés dans ce cas.");
+define("LAN_LW_HELP_04", "Les mots liens peuvent être désactivés sur des pages spécifiques ou des pages correspondant à un modèle. Saisissez-les ici (même syntaxe que pour la visibilité du menu), un modèle par ligne. Si le modèle se termine par '!', cela correspond à 'fin de la requête', et est généralement une correspondance exacte. Sinon, toute URL contenant la chaîne spécifiée correspondra.");
+define("LAN_LW_HELP_05", "Ajoutera cette classe à tous les liens générés.");
+define("LAN_LW_HELP_10", "Vous pouvez définir ici les mots qui deviennent des liens cliquables, ou qui affichent du texte au survol de la souris.	");
+define("LAN_LW_HELP_11", "C'est insensible à la casse. Pour faire correspondre plusieurs mots aux mêmes liens et infobulles, séparez-les par des virgules (sans espaces).");
+define("LAN_LW_HELP_12", "Définissez un lien cliquable ici. S'il s'agit d'un lien externe, il DOIT commencer par 'http(s)://'. Si c'est un lien dans ce site, les constantes normales {e_XXX} peuvent être utilisées.");
+define("LAN_LW_HELP_13", "Définit les options actives.");
+define("LAN_LW_HELP_14", "Définit le texte à afficher lorsque la souris de l'utilisateur passe sur le mot.");
+define("LAN_LW_HELP_15", "Quantité maximale des mêmes mots liens. Doit être un nombre positif. Utilisé lorsque le même mot est trouvé plusieurs fois dans un texte.");
+define("LAN_LW_HELP_16", "Ceci définit un ID numérique optionnel à utiliser avec le traitement Ajax. Ça doit être un numéro positif. Si vide, le numéro d'enregistrement de la base de données est utilisé.");
+define("LAN_LW_HELP_17", "Lorsqu'il est activé, le lien est ouvert dans un nouvel onglet ou une nouvelle fenêtre du navigateur.");

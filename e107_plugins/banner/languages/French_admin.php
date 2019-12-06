@@ -35,8 +35,4 @@ define("BNRLAN_47", "Toutes les campagnes sélectionnées restituées dans des m
 define("BNRLAN_48", "Toutes les campagnes sélectionnées (aucune boîte de restitution)");
 define("BNRLAN_50", "Local");
 define("BNRLAN_51", "Distant");
-define("BNRLAN_HELP_01", "Aide pour la bannière");
-define("BNRLAN_HELP_02", "Utilisez cette extension pour gérer la publicité sur votre site Web.<br/><br/> Lors de la création d'une nouvelle bannière, vous pouvez créer un nom d'utilisateur et un mot de passe pour que votre client se connecte et vérifie l'avancement de la campagne.<br/><br/>Vous pouvez activer le menu bannière à l'aide du gestionnaire de menu et effectuer la suite de la configuration à partir de là.");
-
-
-?>
+define("BNRLAN_HELP_02", "Utilisez cette extension pour gérer la publicité sur votre site Web.[br][br]Lors de la création d'une nouvelle bannière, vous pouvez créer un nom d'utilisateur et un mot de passe pour que votre client se connecte et vérifie l'avancement de la campagne.[br][br]Vous pouvez activer le menu bannière à l'aide du gestionnaire de menu et effectuer la suite de la configuration à partir de là.");

@@ -71,3 +71,6 @@ define("LAN_CRON_64", "Un administrateur peut automatiser les tâches à l'aide 
 define("LAN_CRON_BACKUP", "Sauvegarde");
 define("LAN_CRON_LOGGING", "Enregistrement");
 define("LAN_CRON_RUNNING", "En cours d'exécution");
+define("LAN_CRON_65", "Mise à jour du dépôt de thème git");
+define("LAN_CRON_66", "Aucun dépôt git trouvé");
+define("LAN_CRON_67", "Aucun dépôt git trouvé dans le dossier thème");

@@ -241,6 +241,7 @@ define("LAN_MAILOUT_254", "Voir le modèle d'email");
 define("LAN_MAILOUT_255", "Modèle d'email, ID :");
 define("LAN_MAILOUT_256", "Retour");
 define("LAN_MAILOUT_257", "Modèle généré");
+define("LAN_MAILOUT_259", "Pas \"d'adresse mail source\" sélectionnée dans les préférences");
 define("LAN_SEND", "Envoyer");
 define("LAN_HOLD", "Mettre en attente");
 define("LAN_MAILOUT_260", "Type d'utilisateur");
