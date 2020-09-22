@@ -1,17 +1,17 @@
 <?php
-/**
- * Fichiers utf-8 français pour le CMS e107 version 0.8 α
- * accessoirement compatible 0.7.11
- * Licence GNU/GPL
- * Traducteurs: communauté française e107 http://etalkers.tuxfamily.org/
- *
- * $Source: /cvsroot/touchatou/e107_french/e107_languages/French/admin/help/meta.php,v $
- * $Revision: 1.5 $
- * $Date: 2008/06/16 15:03:43 $
- * $Author: marj_nl_fr $
- */
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/17 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = 'Les méta-tags que vous paramétrez ici sont placés à la bonne place dans le code source.';
-$ns -> tablerender('Aide', $text);
+$text = "Les m&eacute;ta-tags que vous param&eacute;trez ici sont plac&eacute;s &agrave; la bonne place dans le code source.";
+
+$ns -> tablerender("Aide m&eacute;ta-tags", $text);

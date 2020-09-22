@@ -1,17 +1,16 @@
 <?php
-/**
- * Fichiers utf-8 français pour le CMS e107 version 0.8 α
- * accessoirement compatible 0.7.11
- * Licence GNU/GPL
- * Traducteurs: communauté française e107 http://etalkers.tuxfamily.org/
- *
- * $Source: /cvsroot/touchatou/e107_french/e107_languages/French/admin/help/emoticon.php,v $
- * $Revision: 1.6 $
- * $Date: 2008/06/16 15:03:43 $
- * $Author: marj_nl_fr $
- */
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/17 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = 'Lorsque les émoticônes sont activées, les chaines de caractères émoticônes sont remplacées par leurs images Smiley respectives et ce sur l\'ensemble du site.';
-$ns -> tablerender('Aide émoticônes', $text);
+$text = "Lorsque les &eacute;motic&ocirc;nes sont activ&eacute;es, les cha&icirc;nes de texte standard des smiley seront remplac&eacute;es par leur des images d&apos;&eacute;motic&ocirc;nes respectives dans tout le contenu de votre site.";
+$ns -> tablerender("Aide &eacute;motic&ocirc;nes", $text);

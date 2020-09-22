@@ -1,17 +1,17 @@
 <?php
-/**
- * Fichiers utf-8 français pour le CMS e107 version 0.8 α
- * accessoirement compatible 0.7.11
- * Licence GNU/GPL
- * Traducteurs: communauté française e107 http://etalkers.tuxfamily.org/
- *
- * $Source: /cvsroot/touchatou/e107_french/e107_languages/French/admin/help/cpage.php,v $
- * $Revision: 1.8 $
- * $Date: 2008/06/16 15:03:43 $
- * $Author: marj_nl_fr $
- */
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/17 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = 'Depuis de cette page vous pouvez créer des menus ou pages personnalisés en y insérant votre propre contenu.<br/><br/>';
-$ns -> tablerender('Aide pages/menus personnalisés', $text);
+$text = "&Agrave; partir de cette zone, vous pouvez cr&eacute;er des menus et des pages personnalis&eacute;s avec votre propre contenu.<br />Les menus et les pages sont li&eacute;s de mani&egrave;re &agrave; ce que vous puissiez avoir un menu facilement li&eacute; &agrave; la page si vous le souhaitez.";
+// $text .= "Veuillez consulter <a href='http://docs.e107.org/Using Pages personnalis&eacute;es et menus personnalis&eacute;s&apos;>http://docs.e107.org/Using Pages personnalis&eacute;es et menus personnalis&eacute;s</a> pour une explication de toutes les fonctionnalit&eacute;s." ;
+$ns -> tablerender("Aide pages/menus personnalis&eacute;s", $text);

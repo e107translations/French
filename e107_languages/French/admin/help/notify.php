@@ -5,9 +5,9 @@
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = "Des notifications par mail sont envoyées lorsque surviennent des évènements e107.<br /><br />
-Par exemple, définir 'IP exclue pour flood du site' sur le groupe 'Administrateur' et tous les administrateurs recevront un mail quand votre site est floodé.<br /><br />
-Vous pouvez également, comme autre exemple, définir 'Article posté par un administrateur' sur le groupe 'Membres' et tous vos utilisateurs recevront un email les avertissant de la publication d'un article par un administrateur.<br /><br />
-Si vous voulez que les notifications par mail soient envoyées à une adresse mail alternative, sélectionnez l'option 'Email' et renseignez l'adresse email dans le champ prévu.";
+$text = "Des notifications par mail sont envoy&eacute;es lorsque surviennent des &eacute;v&egrave;nements e107.<br /><br />
+Par exemple, d&eacute;finir &apos;IP exclue pour flood du site&apos; sur le groupe &apos;Administrateur&apos; et tous les administrateurs recevront un mail quand votre site est flood&eacute;.<br /><br />
+Vous pouvez &eacute;galement, comme autre exemple, d&eacute;finir &apos;Article post&eacute; par un administrateur&apos; sur le groupe &apos;Membres&apos; et tous vos utilisateurs recevront un email les avertissant de la publication d&apos;un article par un administrateur.<br /><br />
+Si vous voulez que les notifications par mail soient envoy&eacute;es &agrave; une autre adresse mail, s&eacute;lectionnez l&apos;option &apos;Email&apos; et renseignez l&apos;adresse email dans le champ pr&eacute;vu &agrave; cet effet.";
 
 $ns -> tablerender("Aide notifications", $text);

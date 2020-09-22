@@ -1,9 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/21 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 define("LAN_PLUGIN__BLANK_NAME", "Extension vierge");
-define("LAN_PLUGIN__BLANK_DIZ", "Une extension vierge pour vous aider à vous lancer dans le développement d'une extension. Plus de détails peuvent être ajoutés ici.");
+define("LAN_PLUGIN__BLANK_DIZ", "Une extension vierge pour vous aider &agrave; vous lancer dans le d&eacute;veloppement d&apos;une extension. Plus de d&eacute;tails peuvent &ecirc;tre ajout&eacute;s ici.");
 define("LAN_PLUGIN__BLANK_LINK", "Lien vierge");

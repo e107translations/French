@@ -1,17 +1,17 @@
 <?php
-/**
- * Fichiers utf-8 français pour le CMS e107 version 0.8 α
- * accessoirement compatible 0.7.11
- * Licence GNU/GPL
- * Traducteurs: communauté française e107 http://etalkers.tuxfamily.org/
- *
- * $Source: /cvsroot/touchatou/e107_french/e107_languages/French/admin/help/ugflag.php,v $
- * $Revision: 1.7 $
- * $Date: 2008/06/30 22:32:47 $
- * $Author: marj_nl_fr $
- */
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/17 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = 'Si vous mettez à jour e107 ou si vous voulez que le site soit indisponible pour quelque temps, cochez la case et vos visiteurs sont redirigés vers une page expliquant pourquoi le site est indisponible.<br /><br />Décochez la case si vous voulez revenir à une situation normale.';
+$text = "Si vous mettez &agrave; niveau e107 ou si vous avez simplement besoin que votre site soit hors ligne pendant un certain temps, il suffit de cocher la case de maintenance et vos visiteurs seront redirig&eacute;s vers une page expliquant que le site est hors service pour r&eacute;paration. Une fois que vous avez termin&eacute;, d&eacute;cochez la case pour que le site redevienne normal.";
+
 $ns -> tablerender('Aide maintenance', $text);

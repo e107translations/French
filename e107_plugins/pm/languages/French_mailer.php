@@ -10,6 +10,6 @@
 +---------------------------------------------------------------+
 */
 
-define("LAN_EC_PM_04", "Gestionnaire de messagerie privée");
-define("LAN_EC_PM_05", "Processus d'envois importants de messages privés");
-define("LAN_EC_PM_06", "Commencer le traitement en vrac de la messagerie privée pour [y] bénéficiaires");
+define("LAN_EC_PM_04", "Gestionnaire de messagerie priv&eacute;e");
+define("LAN_EC_PM_05", "Processus d&apos;envois importants de messages priv&eacute;s");
+define("LAN_EC_PM_06", "Commencer le traitement en vrac de la messagerie priv&eacute;e pour [y] b&eacute;n&eacute;ficiaires");

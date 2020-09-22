@@ -1,17 +1,17 @@
 <?php
-/**
- * Fichiers utf-8 français pour le CMS e107 version 0.8 α
- * accessoirement compatible 0.7.11
- * Licence GNU/GPL
- * Traducteurs: communauté française e107 http://etalkers.tuxfamily.org/
- *
- * $Source: /cvsroot/touchatou/e107_french/e107_languages/French/admin/help/cache.php,v $
- * $Revision: 1.10 $
- * $Date: 2008/06/30 22:32:47 $
- * $Author: marj_nl_fr $
- */
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/17 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = 'Si le cache est activé, la fluidité du site est sensiblement augmentée et le nombre de requêtes SQL vers la base de données réduit.<br /><br /><strong>IMPORTANT: Si vous êtes en train de modifier le thème, désactivez le cache afin que les modifications soient visibles.</strong>';
-$ns -> tablerender('Système de cache', $text);
+$caption = "Syst&egrave;me de cache";
+$text = "Si le cache est activ&eacute;, la fluidit&eacute; du site est sensiblement augment&eacute;e et le nombre de requ&ecirc;tes SQL vers la base de donn&eacute;es r&eacute;duit.<br /><br /><strong>IMPORTANT: Si vous &ecirc;tes en train de modifier le th&egrave;me, d&eacute;sactivez le cache afin que les modifications soient visibles.</strong>";
+$ns -> tablerender($caption, $text);

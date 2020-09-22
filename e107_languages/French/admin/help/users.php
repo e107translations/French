@@ -1,7 +1,14 @@
 <?php
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/17 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
@@ -11,54 +18,50 @@ if (e_QUERY) list($action,$junk) = explode('.',e_QUERY); else $action = 'list';
 switch ($action)
 {
   case 'create' :
-    $text = "Cette page vous permet de créer un utilisateur, qui devient immédiatement un membre normal du site, quel que soit le groupe d'appartenance que vous assignez.<br /><br />
-    Si vous cochez la case 'Envoyer le mail de confirmation avec mot de passe au nouvel utilisateur', le nom de connexion et le mot de passe sont envoyés <b>en clair</b>, aussi l'utilisateur doit changer son mot de passe dès réception.";
+    $text = "Cette page vous permet de cr&eacute;er un utilisateur, qui devient imm&eacute;diatement un membre normal du site, quel que soit le groupe d&apos;appartenance que vous lui attribuez.<br /><br />
+    Si vous cochez la case &apos;Envoyer le mail de confirmation avec mot de passe au nouvel utilisateur&apos;, le nom de connexion et le mot de passe sont envoy&eacute;s <strong>en clair</strong>, aussi l&apos;utilisateur doit changer son mot de passe d&egrave;s r&eacute;ception.";
     break;
 
   case 'prune' :
-	$text = "Supprime en vrac les utilisateurs indésirables de la base de données. Il peut s'agir soit de ceux qui n'ont pas réussi à terminer le processus d'inscription ou ceux dont l'adresse mail est en erreur. Les messages du forum, commentaires, etc. restent et sont marqués comme provenant d'un 'Utilisateur supprimé'.";
+	$text = "Supprime en vrac les utilisateurs ind&eacute;sirables de la base de donn&eacute;es. Il peut s&apos;agir soit de ceux qui n&apos;ont pas r&eacute;ussi &agrave; terminer le processus d&apos;inscription ou ceux dont les adresses &eacute;lectroniques ont &eacute;t&eacute; refus&eacute;es. Tous les messages, commentaires, etc. du forum sont conserv&eacute;s et sont signal&eacute;s comme provenant d&apos;un &apos;Utilisateur supprim&eacute;&apos;.";
 	break;
 
   case 'unverified' :
-	$text = "Affiche les membres qui n'ont pas réussi à terminer leur inscription. Les options sont en général comme celles de la liste complète des membres.";
+	$text = "Affiche les membres qui n&apos;ont pas r&eacute;ussi &agrave; terminer leur inscription. Les options sont en g&eacute;n&eacute;ral les m&ecirc;mes que pour la liste compl&egrave;te des membres.";
     break;
 
   case 'options' :
-	$text = "Définit diverses options affectant tous les utilisateurs.<br /><br />
-	<b>Autoriser le téléchargement d'avatar</b><br />
-	Si activé, les utilisateurs peuvent télécharger un avatar de leur choix, lequel sera stocké sur votre serveur. Cela peut avoir des implications de sécurité.<br /><br />
-	<b>Autoriser le téléchargement de photo</b><br />
-	Si activé, les utilisateurs peuvent télécharger une photo de leur choix, lequel sera stocké sur votre serveur. Cela peut avoir des implications de sécurité.<br /><br />
+	$text = "D&eacute;finit diverses options affectant tous les utilisateurs.<br /><br />
+	<b>Autoriser le t&eacute;l&eacute;chargement d&apos;avatar</b><br />
+	Si cette option est activ&eacute;e, les utilisateurs peuvent t&eacute;l&eacute;charger un avatar de leur choix, lequel sera stock&eacute; sur votre serveur. Cela peut avoir des implications en mati&egrave;re de s&eacute;curit&eacute;.<br /><br />
+	<b>Autoriser le t&eacute;l&eacute;chargement de photos</b><br />
+	Si cette option est activ&eacute;e, les utilisateurs peuvent t&eacute;l&eacute;charger une photo de leur choix, lequel sera stock&eacute; sur votre serveur. Cela peut avoir des implications en mati&egrave;re de s&eacute;curit&eacute;.<br /><br />
 	<b>Suivi des utilisateurs en ligne</b><br />
-    Ceci doit être activé pour conserver une trace de la plupart des activités de l'utilisateur, notamment le comptage des membres en ligne. Ceci augmente significativement l'activité de la base de données.<br /><br />
-	<b>Informations sur les membres</b><br />
-	Détermine quels groupes de membres peuvent afficher la liste des membres.
+    Cela doit permettre de suivre la plupart des activit&eacute;s des utilisateurs, y compris le nombre de membres en ligne. Il permet d&apos;augmenter de mani&egrave;re significative l&apos;activit&eacute; de la base de donn&eacute;es.<br /><br />
+	<b>Informations aux membres</b><br />
+	D&eacute;termine quelle cat&eacute;gorie de membres peut consulter la liste des membres.
     ";
     break;
 
   default :
-	$text = "Cette page affiche une liste de vos membres inscrits. Vous pouvez mettre à jour leurs paramètres, leur donner le statut d'administrateur et définir leur groupe d'appartenance entre autres choses.<br /><br />
-	L'ordre de tri peut être modifié en cliquant sur l'en-tête de colonne.<br />
-	Les colonnes affichées peuvent être modifiées en cliquant sur 'Modifier Afficher les options', en sélectionnant les colonnes désirées, puis en cliquant sur 'Rechercher/Rafraichir'.<br /><br />
-	<b>Informations</b><br />
-	Afficher le profil de cet utilisateur (il est également possible de cliquer sur leur nom d'affichage)<br /><br />
-    <b>Modifier</b><br />
-    Modifier les paramètres pour cet utilisateur.<br /><br />
-    <b>Exclure/Ne plus exclure</b><br />
-    Déterminer si l'utilisateur peut accéder au site.<br /><br />
+	$text = "Cette page affiche la liste de vos membres inscrits. Vous pouvez mettre &agrave; jour leurs param&egrave;tres, leur donner le statut d&apos;administrateur et d&eacute;finir leur classe d&apos;utilisateur entre autres choses.<br /><br />
+	L&apos;ordre de tri peut &ecirc;tre modifi&eacute; en cliquant sur l&apos;en-t&ecirc;te de colonne.<br /><br />
+	<b>Classes d&apos;utilisateur</b><br />
+	Les classes d&apos;utilisateurs peuvent &ecirc;tre d&eacute;finies de deux fa&ccedil;ons : soit &apos;en ligne&apos; en cliquant dans la colonne &apos;classe d&apos;utilisateur&apos;, soit en s&eacute;lectionnant un ou plusieurs utilisateurs et en utilisant les options &apos;par lot&apos; en bas du tableau. <br /><br />
+	<b>Editer</b><br />
+	Voir et modifier tous les param&egrave;tres pour cet utilisateur. <br /><br />
+	<b>Interdiction/Autoriser</b><br />
+	D&eacute;terminer si l&apos;utilisateur peut acc&eacute;der au site. <br /><br />
 	<b>Activer</b><br />
-	Ceci active un utilisateur qui aurait dû normalement répondre à l'activation par mail.<br /><br />
-	<b>Renvoyer du mail</b><br />
-	Renvoyer le mail d'activation à l'utilisateur.<br /><br />
-	<b>Mail test</b><br />
-	Vérifier la validité de l'adresse email de l'utilisateur (n'envoie pas de mail).<br /><br />
-	<b>Définir le groupe</b><br />
-	Configurer l'appartenance de groupe pour un utilisateur.<br /><br />
+	Cela active un utilisateur qui aurait normalement r&eacute;pondu &agrave; l&apos;e-mail d&apos;activation.<br /><br />
+	<b>Renvoyer un courriel</b><br />
+	Renvoie l&apos;e-mail d&apos;activation &agrave; l&apos;utilisateur.<br /><br />
+	<b>Test email</b><br />
+	V&eacute;rifiez la validit&eacute; de l&apos;adresse &eacute;lectronique de l&apos;utilisateur (n&apos;envoie pas de courrier &eacute;lectronique)<br /><br />
 	<b>Supprimer</b><br />
-	Supprime totalement l'utilisateur des membres du site (les messages du forum, les commentaires, etc. restent et seront marqués comme provenant d'un 'Utilisateur supprimé'.
+	Supprime totalement l&apos;utilisateur du site (tous les messages, commentaires, etc. restent, et sont signal&eacute;s comme provenant d&apos;un &apos;utilisateur supprim&eacute;&apos;).
 	";
 }
-
 
 $ns -> tablerender($caption, $text);
 unset($text);

@@ -1,17 +1,22 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("FLALAN_2", "Aucune échec de tentative de connexion n'a été consigné");
-define("FLALAN_3", "Tentative(s) supprimée(s)");
-define("FLALAN_4", "L'utilisateur a tenté de se connecter en utilisant un nom d'utilisateur/mot de passe incorrect");
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/18 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
+define("FLALAN_2", "Aucun &eacute;chec de tentative de connexion n&apos;a &eacute;t&eacute; consign&eacute;");
+define("FLALAN_3", "Tentative(s) supprim&eacute;e(s)");
+define("FLALAN_4", "L&apos;utilisateur a tent&eacute; de se connecter en utilisant un nom d&apos;utilisateur/mot de passe incorrect");
 define("FLALAN_5", "IP(s) exclue(s)");
-define("FLALAN_7", "Données");
+define("FLALAN_7", "Donn&eacute;es");
 define("FLALAN_8", "Adresse IP/Nom de domaine");
-define("FLALAN_10", "Supprimer/exclure les entrées sélectionnées");
-define("FLALAN_15", "L'(les) adresse(s) IP suivante(s) a(ont) été automatiquement exclue(s) - l'utilisateur ayant échoué à plus de 10 tentatives de connexion");
-define("FLALAN_16", "supprimer cette liste d'exclusion automatique");
-define("FLALAN_17", "Liste d'exclusion automatique supprimée");
-define("FLALAN_18", "Exclusion de l'adresse IP --IP-- non effectuée car étant sur liste blanche");
+define("FLALAN_10", "Supprimer/exclure les entr&eacute;es s&eacute;lectionn&eacute;es");
+define("FLALAN_15", "L&apos;(les) adresse(s) IP suivante(s) a(ont) &eacute;t&eacute; automatiquement exclue(s) - l&apos;utilisateur ayant &eacute;chou&eacute; &agrave; plus de 10 tentatives de connexion");
+define("FLALAN_16", "supprimer cette liste d&apos;exclusion automatique");
+define("FLALAN_17", "Liste d&apos;exclusion automatique supprim&eacute;e");
+define("FLALAN_18", "Exclusion de l&apos;adresse IP --IP-- non effectu&eacute;e car &eacute;tant sur liste blanche");

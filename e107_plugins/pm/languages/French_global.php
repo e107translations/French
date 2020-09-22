@@ -9,21 +9,18 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-define("LAN_PLUGIN_PM_NAME", "Messagerie privée");
-define("LAN_PLUGIN_PM_DESCRIPTION", "Cette extension est un système totalement opérationnel de messagerie privée.");
-define("LAN_PLUGIN_PM_URL_DEFAULT_LABEL", "Par défaut");
-define("LAN_PLUGIN_PM_URL_DEFAULT_DESCR", "Par défaut");
-define("LAN_PLUGIN_PM_INBOX", "Boite de réception");
-define("LAN_PLUGIN_PM_OUTBOX", "Boite d'envoi");
+define("LAN_PLUGIN_PM_NAME", "Messagerie priv&eacute;e");
+define("LAN_PLUGIN_PM_DESCRIPTION", "Cette extension est un syst&egrave;me totalement op&eacute;rationnel de messagerie priv&eacute;e.");
+define("LAN_PLUGIN_PM_URL_DEFAULT_LABEL", "Par d&eacute;faut");
+define("LAN_PLUGIN_PM_URL_DEFAULT_DESCR", "Par d&eacute;faut");
+define("LAN_PLUGIN_PM_INBOX", "Bo&icirc;te de r&eacute;ception");
+define("LAN_PLUGIN_PM_OUTBOX", "Bo&icirc;te d&apos;envoi");
 define("LAN_PLUGIN_PM_NEW", "Envoyer un nouveau message");
-define("LAN_PLUGIN_PM_TO", "À");
+define("LAN_PLUGIN_PM_TO", "&Agrave;");
 define("LAN_PLUGIN_PM_FROM", "De la part de");
 define("LAN_PLUGIN_PM_SUB", "Objet");
 define("LAN_PLUGIN_PM_MESS", "Message");
 define("LAN_PLUGIN_PM_READ", "Lecture");
-define("LAN_PLUGIN_PM_DEL", "Supprimer le PM");
-define("LAN_PLUGIN_PM_ATTACHMENT", "Pièce attachée");
+define("LAN_PLUGIN_PM_DEL", "Supprimer le message priv&eacute;");
+define("LAN_PLUGIN_PM_ATTACHMENT", "Pi&egrave;ce attach&eacute;e");
 define("LAN_PLUGIN_PM_SIZE", "Taille");
-
-
-?>

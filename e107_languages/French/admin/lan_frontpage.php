@@ -10,18 +10,15 @@
 +---------------------------------------------------------------+
 */
 
-define("FRTLAN_13", "Paramètres de la page d'accueil");
-define("FRTLAN_30", "Page personnalisée");
+define("FRTLAN_13", "Param&egrave;tres de la page d&apos;accueil");
+define("FRTLAN_30", "Page personnalis&eacute;e");
 define("FRTLAN_35", "Page post-connexion");
-define("FRTLAN_42", "Ajouter une nouvelle règle");
+define("FRTLAN_42", "Ajouter une nouvelle r&egrave;gle");
 define("FRTLAN_43", "Classe");
-define("FRTLAN_46", "Modifier une règle existante");
-define("FRTLAN_49", "Page d'accueil");
+define("FRTLAN_46", "Modifier une r&egrave;gle existante");
+define("FRTLAN_49", "Page d&apos;accueil");
 define("FRTLAN_51", "Autre");
-define("FRTLAN_PAGE_TITLE", "Page d'accueil");
-define("FRTLAN_56", "Dupliquer la définition pour la classe :");
+define("FRTLAN_PAGE_TITLE", "Page d&apos;accueil");
+define("FRTLAN_56", "Dupliquer la d&eacute;finition pour la classe :");
 define("FRTLAN_57", "Erreur logicielle");
-define("FRTLAN_61", "Sélection");
-
-
-?>
+define("FRTLAN_61", "S&eacute;lection");

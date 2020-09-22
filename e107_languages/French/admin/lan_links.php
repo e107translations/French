@@ -10,29 +10,26 @@
 +---------------------------------------------------------------+
 */
 
-define("LCLAN_19", "Type d'ouverture du lien");
-define("LCLAN_20", "S'ouvre dans la même fenêtre");
-define("LCLAN_23", "S'ouvre dans une nouvelle fenêtre");
-define("LCLAN_24", "S'ouvre dans une mini-fenêtre 600x400");
+define("LCLAN_19", "Type d&apos;ouverture du lien");
+define("LCLAN_20", "S&apos;ouvre dans la m&ecirc;me fen&ecirc;tre");
+define("LCLAN_23", "S&apos;ouvre dans une nouvelle fen&ecirc;tre");
+define("LCLAN_24", "S&apos;ouvre dans une mini-fen&ecirc;tre 600x400");
 define("LCLAN_78", "Afficher la description comme info-bulle");
 define("LCLAN_79", "Afficher la description lorsque la souris survole le lien");
 define("LCLAN_80", "Activer les sous-menus extensibles");
-define("LCLAN_81", "Les sous-menus s'afficheront uniquement après avoir cliqué sur le lien parent. (Le lien parent est désactivé)");
+define("LCLAN_81", "Les sous-menus s&apos;afficheront uniquement apr&egrave;s avoir cliqu&eacute; sur le lien parent. (Le lien parent est d&eacute;sactiv&eacute;)");
 define("LCLAN_105", "Fonction");
-define("LCLAN_106", "Détenu par");
-define("LCLAN_107", "Permettre de substituer l'URL avec l'URL SEF créée dynamiquement");
-define("LCLAN_108", "Certaines sélections omises - vous ne pouvez définir le lien comme un sous-lien de ses sous-lien.");
+define("LCLAN_106", "D&eacute;tenu par");
+define("LCLAN_107", "Permettre de substituer l&apos;URL avec l&apos;URL SEF cr&eacute;&eacute;e dynamiquement");
+define("LCLAN_108", "Certaines s&eacute;lections omises - vous ne pouvez d&eacute;finir le lien comme un sous-lien de ses sous-lien.");
 define("LCLAN_109", "Veuillez choisir un parent");
-define("LCLAN_110", "Veuillez choisir un module générateur");
-define("LCLAN_111", "Données du module générateur non valides");
-define("LINKLAN_1", "S'ouvre dans une fenêtre de 800x600");
-define("LINKLAN_4", "Générateur de sous-liens");
-define("LINKLAN_5", "Générer les sous-liens");
-define("LINKLAN_6", "Créer des sous-liens depuis");
-define("LINKLAN_7", "Créer des sous-liens sous quel lien ?");
-define("LINKLAN_8", "Catégories d'articles");
-define("LINKLAN_9", "Catégories de téléchargements");
-define("LINKLAN_10", "Raccourcis de thème");
-
-
-?>
+define("LCLAN_110", "Veuillez choisir un module g&eacute;n&eacute;rateur");
+define("LCLAN_111", "Donn&eacute;es du module g&eacute;n&eacute;rateur non valides");
+define("LINKLAN_1", "S&apos;ouvre dans une fen&ecirc;tre de 800x600");
+define("LINKLAN_4", "G&eacute;n&eacute;rateur de sous-liens");
+define("LINKLAN_5", "G&eacute;n&eacute;rer les sous-liens");
+define("LINKLAN_6", "Cr&eacute;er des sous-liens depuis");
+define("LINKLAN_7", "Cr&eacute;er des sous-liens sous quel lien ?");
+define("LINKLAN_8", "Cat&eacute;gories d&apos;articles");
+define("LINKLAN_9", "Cat&eacute;gories de t&eacute;l&eacute;chargements");
+define("LINKLAN_10", "Raccourcis de th&egrave;me");

@@ -9,7 +9,7 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-define("LANDT_01", "année");
+define("LANDT_01", "ann&eacute;e");
 define("LANDT_02", "mois");
 define("LANDT_03", "semaine");
 define("LANDT_04", "jour");

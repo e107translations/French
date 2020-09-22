@@ -1,46 +1,60 @@
 <?php
-/**
- * Fichiers utf-8 français pour le CMS e107 version 0.8 α
- * accessoirement compatible 0.7.11
- * Licence GNU/GPL
- * Traducteurs: communauté française e107 http://etalkers.tuxfamily.org/
- *
- * $Source: /cvsroot/touchatou/e107_french/e107_languages/French/admin/help/menus.php,v $
- * $Revision: 1.8 $
- * $Date: 2008/06/16 15:03:43 $
- * $Author: marj_nl_fr $
- */
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/17 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-if(!defined('e_HTTP')){ die('Accès non autorisé');}
-if (!getperms('2')) {
-    header('location:'.e_BASE.'index.php');
-     exit;
+if (!getperms("2")) 
+{
+	header("location:".e_BASE."index.php");
+	exit;
 }
-global $sql;
-if(isset($_POST['reset'])){
-        for($mc=1;$mc<=5;$mc++){
+
+$sql = e107::getDb();
+$tp = e107::getParser();
+$frm = e107::getForm();
+
+if(isset($_POST['reset']))
+{
+        for($mc=1;$mc<=5;$mc++)
+				{
             $sql -> db_Select('menus','*', "menu_location='".$mc."' ORDER BY menu_order");
             $count = 1;
             $sql2 = new db;
-            while(list($menu_id, $menu_name, $menu_location, $menu_order) = $sql-> db_Fetch()){
+            while(list($menu_id, $menu_name, $menu_location, $menu_order) = $sql-> db_Fetch())
+						{
                 $sql2 -> db_Update('menus', "menu_order='$count' WHERE menu_id='$menu_id' ");
                 $count++;
             }
-            $text = '<strong>Menus réinitialisés en base de données</strong><br /><br />';
+            $text = "<strong>Menus r&eacute;initialis&eacute;s en base de donn&eacute;es</strong><br /><br />";
         }
-}else{
+}
+else
+{
     unset($text);
 }
 
-$text .= 'D\'ici vous pouvez gérer où et dans quel ordre vos menus apparaissent.<br />
-Utiliser les listes déroulantes pour déplacer vers le haut ou le bas jusqu\'à ce que vous soyez satisfait de leur positionnement.<br /><br />
-Si vous trouvez que les menus ne sont pas mis à jour proprement, cliquez sur le bouton rafraichir.<br />
-<form method="post" id="menurefresh" action="'.$_SERVER['PHP_SELF'].'">
-<div><input type="submit" class="button" name="reset" value="Rafraichir" /></div>
-</form><br />
-<div class="indent"><span style="color:red">*</span> les droits de lisibilité des menus ont été modifiés</div>
-';
+$text .= "D&apos;ici vous pouvez g&eacute;rer o&ugrave; et dans quel ordre vos menus apparaissent.<br />
+Utiliser les listes d&eacute;roulantes pour d&eacute;placer vers le haut ou le bas jusqu&apos;&agrave; ce que vous soyez satisfait de leur positionnement.<br /><br />
+Si vous trouvez que les menus ne sont pas mis &agrave; jour proprement, cliquez sur le bouton rafra&icirc;chir.<br />
 
-$ns -> tablerender('Aide menus ', $text);
+[html]
+<form method=&apos;post&apos; id=&apos;menurefresh&apos; action=&apos;".$_SERVER['PHP_SELF']."&apos;>
+<div>
+".$frm->admin_button('reset','Refresh','cancel')."</div>
+</form>
+[br]
+".e107::getParser()->toGlyph('fa-search')." indique que les droits de lisibilit&eacute; des menus ont &eacute;t&eacute; modifi&eacute;s.
+[/html]
+";
+
+$text = $tp->toHTML($text, true);
+$ns->tablerender("Aide du gestionnaire de menu", $text);

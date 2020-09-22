@@ -1,17 +1,16 @@
 <?php
-/**
- * Fichiers utf-8 français pour le CMS e107 version 0.8 α
- * accessoirement compatible 0.7.11
- * Licence GNU/GPL
- * Traducteurs: communauté française e107 http://etalkers.tuxfamily.org/
- *
- * $Source: /cvsroot/touchatou/e107_french/e107_languages/French/admin/help/administrator.php,v $
- * $Revision: 1.5 $
- * $Date: 2008/06/16 15:03:43 $
- * $Author: marj_nl_fr $
- */
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/17 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = 'Utilisez cette page pour éditer ou supprimer des administrateurs.<br /><br />L\'administrateur n\'a le droit d\'accéder qu\'aux fonctionnalités cochées.<br /><br />Pour créer un nouvel administrateur, rendez vous à la page de configuration des membres et conférez le statut d\'admin au membre désiré.';
-$ns -> tablerender('Aide administrateurs', $text);
+$text = "Utilisez cette page pour &eacute;diter ou supprimer des administrateurs. L&apos;administrateur n&apos;a le droit d&apos;acc&eacute;der qu&apos;aux fonctionnalit&eacute;s coch&eacute;es. Pour cr&eacute;er un nouvel administrateur, rendez vous &agrave; la page de configuration des membres et conf&eacute;rez le statut d&apos;admin au membre d&eacute;sir&eacute;.";
+$ns -> tablerender("Aide administration du site", $text);

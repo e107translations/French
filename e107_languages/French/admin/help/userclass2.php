@@ -1,82 +1,67 @@
 <?php
-/**
- * Fichiers utf-8 français pour le CMS e107 version 0.8 α
- * accessoirement compatible 0.7.11
- * Licence GNU/GPL
- * Traducteurs: communauté française e107 http://etalkers.tuxfamily.org/
- *
- * $Source: /cvsroot/touchatou/e107_french/e107_languages/French/admin/help/userclass2.php,v $
- * $Revision: 1.9 $
- * $Date: 2008/07/26 21:15:50 $
- * $Author: marj_nl_fr $
- */
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/17 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = 'Aide groupe utilisateur';
-if(ET_e107_Version_7 === true)
+$caption = "Aide classe utilisateur";
+
+if (!($action = vartrue($_GET['action'])))
 {
-    $text = 'Vous pouvez créer/éditer/supprimer des groupes.<br />
-    Cela est utile pour restreindre les membres à certaines parties du site. Par exemple, vous pouvez créer un groupe appelé TEST, puis créer un forum où seul les membres du groupe TEST sont autorisés.
-    ';
+	if (e_QUERY)
+	{
+	  $qs = explode(".", e_QUERY);
+	}
+	$action = varset($qs[0],'display');
 }
-else
+
+switch ($action)
 {
-    if (e_QUERY)
-    {
-        $qs = explode('.', e_QUERY);
-    }
-    switch (varsettrue($qs[0],'config'))
-    {
-        case 'initial' :
-            $text = 'Détermine les groupes pour lesquels un nouveau membre est automatiquement inscrit.<br />
-            Si la vérification est activée, cet affectation peut prendre effet soit à son inscription, soit à son activation.<br /><br />
-            Si vous utilisez des groupes hiérarchiques, un membre est automatiquement membre des groupes <q>pères</q> de celui sélectionné dans l\'arbre.
-            ';
-        break;
-        case 'options' :
-            $text = 'Vous pouvez choisir d\'ajouter une entrée dans les logs admin lorsqu\'un admin modifie les informations d\'un groupe.<br /><br />
-            Les options de paramétrage permettent de gérer la hiérarchie par défaut des groupes, visualisable dans l\'arbre des groupes.<br />
-            Ceci n\'a aucun effet sur les autres informations des groupes.
-            ';
-        break;
-        case 'membs' :
-            $text = 'Ici vous pouvez effectuer des modifications importantes sur les appartenance de groupes.<br />
-            Les modifications sur les appartenance de groupes au niveau membre sont à effectuer dans la page <q>Membres</q>.<br /><br />
-            Si vous utilisez des groupes hiérarchiques un membre est automatiquement membre des groupes <q>pères</q> de celui sélectionné dans l\'arbre.
-            ';
-        break;
-        case 'debug' :
-            $text = 'Pour utilisateur avancé uniquement.<br />
-            Affiche la hiérarchie des groupes ainsi que les groupes automatiquement affectés et les groupes auxquels les 20 premiers membres du site ont accès.<br />
-            Le nombre en début de chaque groupe est son ID unique. Le groupe <q>Tous le monde</q> à 0 (zéro) pour ID. e107 utilise ces ID pour se référer aux groupes.<br />
-            Suivant le nom du groupe se trouve la visibilité et l\'édition, par exemple [vis:253, edit:27]. Se qui signifie que le groupe est visible dans la plupart des sélecteurs si le membre appartient au groupe 253 et signifie également que ce membre peut modifier son appartenance s\'il appartient au groupe 27.<br />
-            Pour finir, après le <q>=</q> est affiché une liste de tous les groupes, pères ou fils dans l\'arbre, ainsi que leurs ID. En conséquence un membre appartenant à un groupe particulier l\'est également de tous ceux de cette liste.<br /><br />
-            Les 20 premiers membres et leurs dépendances sont affichés à titre d\'exemple et pour aider à la compréhension.<br />
-            La première entrée de chaque ligne donne les groupes auxquels appartient le membre.<br />
-            La seconde liste les groupes dont il hérite.<br />
-            La troisième liste les groupes pour lesquels il peut modifier son appartenance.
-            ';
-        break;
-        case 'test' :
-        case 'special' :
-            $text = 'Ne pas utiliser!!! Développeurs uniquement!!!
-            ';
-        break;
-        case 'config' :
-        default :
-            $text = 'Vous pouvez créer/éditer/supprimer des groupes.<br />
-            Cela est utile pour restreindre les membres à certaines parties du site. Par exemple, vous pouvez créer un groupe appelé TEST, puis créer un forum où seul les membres du groupe TEST sont autorisés.<br /><br />
-            Le nom du groupe est visible dans le menu déroulant avec parfois une description plus détaillée.<br /><br />
-            Si renseignée, l\'icône du groupe est visible dans différentes zones du site.<br /><br />
-            Pour permettre aux membres de choisir à quels groupes ils peuvent appartenir, autorisez les à les gérer.<br />
-            Seuls les admins pourront gérer les appartenances si vous choisissez <q>personne</q>.<br /><br />
-            Le champ <q>visibilité</q> permet de cacher le groupe à la plupart des membres.<br /><br />
-            <q>Groupe père</q> permet de définir la hiérarchie des groupes.<br />
-            Si la <q>tête</q> de la hiérarchie est <q>Tous le monde (public)</q> ou <q>Membre</q>, les groupes fils et suivant hériterons des même droits.<br />
-            Si la <q>tête</q> de la hiérarchie est <q>Personne</q> alors le cumule des droits est inverse, c\'est à dire qu\'un groupe hérite des droits de ses fils.<br />
-            L\'arbre résultant est affiché en bas de page. Vous pouvez dérouler ou enrouler les branches en cliquant sur <q>+</q> et <q>-</q>.
-            ';
-    }
+	case 'initial' :
+			$text = "D&eacute;finissez les classes auxquelles un nouveau membre du site est initialement affect&eacute;. 
+			Si vous avez activ&eacute; la v&eacute;rification, cette affectation peut avoir lieu soit lors de l&apos;inscription de l&apos;utilisateur, soit lors de la v&eacute;rification de l&apos;utilisateur. <br /><br />
+			Et n&apos;oubliez pas que si vous utilisez des classes d&apos;utilisateurs hi&eacute;rarchiques, un utilisateur est automatiquement membre de toutes les classes &apos;au-dessus&apos; de chaque classe s&eacute;lectionn&eacute;e dans l&apos;arbre.";
+	break;
+	case 'options' :
+			$text = "Les options de configuration vous permettent de cr&eacute;er et de supprimer la hi&eacute;rarchie de classes par d&eacute;faut. Vous pouvez voir l&apos;effet en regardant l&apos;arborescence des utilisateurs.<br />
+			Cela ne d&eacute;truira pas vos autres informations de classe, et vous pourrez modifier ou supprimer la hi&eacute;rarchie plus tard.
+			Vous ne devriez avoir &agrave; reconstruire la hi&eacute;rarchie de classe qu&apos;en cas de corruption de la base de donn&eacute;es.";
+	break;
+	case 'membs' :
+			$text = "Maintenant sur la page d&apos;administration des utilisateurs.";
+	break;
+	case 'debug' :
+			$text = "Pour les utilisateurs avanc&eacute;s uniquement - montre la hi&eacute;rarchie des classes, plus les classes attribu&eacute;es et les classes auxquelles les 20 premiers membres du site ont acc&egrave;s.<br />
+			Le num&eacute;ro qui figure devant le nom de la classe est son identifiant unique (num&eacute;ro de r&eacute;f&eacute;rence). La classe &apos;Tout le monde&apos; a un ID de 0 (z&eacute;ro). e107 utilise ces ID pour se r&eacute;f&eacute;rer aux classes.<br />
+			Apr&egrave;s le nom de la classe se trouve la visibilit&eacute; et la possibilit&eacute; d&apos;&eacute;dition de la classe - [vis:253, edit : 27] par exemple. Cela signifie que la classe ne sera visible dans la plupart des s&eacute;lecteurs que si l&apos;utilisateur actuel est membre de la classe 253, 
+			et l&apos;utilisateur ne peut modifier son appartenance &agrave; une classe que s&apos;il est membre de la classe 27.<br />
+			Enfin, apr&egrave;s le &apos;=&apos;, on trouve une liste de toutes les classes, soit au-dessus soit au-dessous de chaque classe de l&apos;arbre, ainsi que l&apos;ID de cette classe. Ainsi, un utilisateur qui est membre d&apos;une classe particuli&egrave;re sera membre de toutes les classes de cette liste.<br /><br />
+			Pour aider &agrave; la compr&eacute;hension, l&apos;appartenance &agrave; une classe des 20 premiers membres est indiqu&eacute;e. La premi&egrave;re entr&eacute;e sur chaque ligne indique les classes dont l&apos;utilisateur est membre. La deuxi&egrave;me entr&eacute;e &eacute;num&egrave;re toutes les classes dont l&apos;utilisateur est membre une fois que l&apos;h&eacute;ritage est effectif. La troisi&egrave;me entr&eacute;e indique les appartenances de classe qu&apos;il peut modifier.";
+	break;
+	case 'test' :
+	case 'special' :
+			$text = "Ne pas utiliser !!! Seulement pour les d&eacute;veloppeurs !!!
+			";
+	break;
+	case 'edit' :
+	case 'config' :
+	default :
+			$text = "Vous pouvez cr&eacute;er des classes, ou modifier des classes existantes &agrave; partir de cette page.<br />
+         Ceci est utile pour limiter les utilisateurs &agrave; certaines parties de votre site. Par exemple, vous pouvez cr&eacute;er une classe appel&eacute;e TEST, 
+		 puis cr&eacute;ez un forum qui n&apos;autorise que les utilisateurs de la classe TEST &agrave; y acc&eacute;der.<br /><br />
+		 Le nom de la classe est affich&eacute; dans des listes d&eacute;roulantes et autres ; &agrave; certains endroits, la description plus d&eacute;taill&eacute;e est &eacute;galement affich&eacute;e.
+		 L&apos;ic&ocirc;ne de classe peut &ecirc;tre affich&eacute;e &agrave; diff&eacute;rents endroits du site, si l&apos;un d&apos;entre eux est d&eacute;fini.<br /><br />
+		 Pour permettre aux utilisateurs de d&eacute;terminer s&apos;ils peuvent &ecirc;tre membres d&apos;une classe, il faut leur permettre de la g&eacute;rer. Si vous ne d&eacute;finissez &apos;personne&apos; ici, seuls les administrateurs peut g&eacute;rer l&apos;appartenance &agrave; la classe<br /><br />
+		 Le champ &apos;visibilit&eacute;&apos; vous permet de cacher la classe &agrave; la plupart des membres - s&apos;applique dans certaines des listes d&eacute;roulantes et des cases &agrave; cocher.<br /><br />
+		 Le &apos;parent de classe&apos; vous permet d&apos;&eacute;tablir une hi&eacute;rarchie des classes. Si le &apos;sommet&apos; de la hi&eacute;rarchie est la classe &apos;Tout le monde/public&apos; ou &apos;Membre&apos;, les classes inf&eacute;rieures de la hi&eacute;rarchie ont &eacute;galement les droits de leur classe parentale, et du parent de cette classe, et ainsi de suite. Si le &apos;sommet&apos; de la hi&eacute;rarchie est la classe &apos;Personne/Personne&apos;, alors les droits sont accumul&eacute;s dans la direction oppos&eacute;e - une classe accumule tous les droits d&apos;une classe <strong>en dessous</strong> dans l&apos;arbre. L&apos;arbre qui en r&eacute;sulte est affich&eacute; dans la partie inf&eacute;rieure de la page ;vous pouvez agrandir et r&eacute;duire les branches en cliquant sur les cases &apos;+&apos; et &apos;-&apos;.";
 }
+
 $ns -> tablerender($caption, $text);

@@ -12,7 +12,7 @@
 
 define("TD_MENU_L1", "Autres articles");
 define("TD_MENU_L2", "Autres articles");
-define("LAN_NEWSCAT_MENU_TITLE", "Catégories d'articles");
+define("LAN_NEWSCAT_MENU_TITLE", "Cat&eacute;gories d&apos;articles");
 define("LAN_NEWSLATEST_MENU_TITLE", "Derniers articles");
 define("LAN_NEWSARCHIVE_MENU_TITLE", "Archive des articles");
 

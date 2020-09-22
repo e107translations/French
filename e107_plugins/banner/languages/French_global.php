@@ -1,8 +1,13 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_PLUGIN_BANNER_NAME", "Bannières");
-define("LAN_PLUGIN_BANNER_DESCRIPTION", "Ajouter des bannières publicitaires à votre site e107");
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/21 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
+define("LAN_PLUGIN_BANNER_NAME", "Banni&egrave;res");
+define("LAN_PLUGIN_BANNER_DESCRIPTION", "Ajouter des banni&egrave;res publicitaires &agrave; votre site e107");

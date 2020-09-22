@@ -10,10 +10,10 @@
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_DOWNLOAD_NAME", "Téléchargements");
-define("LAN_PLUGIN_DOWNLOAD_DIZ", "Cette extension est un système complet de téléchargement de fichiers");
-define("LAN_DL_NT_01", "Téléchargements rompus signalés");
-define("LAN_DL_NT_02", "Le téléchargement suivant a été signalé comme étant rompu :");
-define("LAN_DL_NT_03", "Cela a été rapporté par[x] avec les commentaires suivants :");
-define("LAN_DL_NT_04", "Cliquez [ici] pour voir les rapports de téléchargement rompus.");
-define("LAN_DL_LATEST_01", "Téléchargements rompus signalés");
+define("LAN_PLUGIN_DOWNLOAD_NAME", "T&eacute;l&eacute;chargements");
+define("LAN_PLUGIN_DOWNLOAD_DIZ", "Cette extension est un syst&egrave;me complet de t&eacute;l&eacute;chargement de fichiers");
+define("LAN_DL_NT_01", "T&eacute;l&eacute;chargements rompus signal&eacute;s");
+define("LAN_DL_NT_02", "Le t&eacute;l&eacute;chargement suivant a &eacute;t&eacute; signal&eacute; comme &eacute;tant rompu :");
+define("LAN_DL_NT_03", "Cela a &eacute;t&eacute; rapport&eacute; par[x] avec les commentaires suivants :");
+define("LAN_DL_NT_04", "Cliquez [ici] pour voir les rapports de t&eacute;l&eacute;chargement rompus.");
+define("LAN_DL_LATEST_01", "T&eacute;l&eacute;chargements rompus signal&eacute;s");

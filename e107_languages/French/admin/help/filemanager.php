@@ -1,17 +1,16 @@
 <?php
-/**
- * Fichiers utf-8 français pour le CMS e107 version 0.8 α
- * accessoirement compatible 0.7.11
- * Licence GNU/GPL
- * Traducteurs: communauté française e107 http://etalkers.tuxfamily.org/
- *
- * $Source: /cvsroot/touchatou/e107_french/e107_languages/French/admin/help/filemanager.php,v $
- * $Revision: 1.6 $
- * $Date: 2008/07/20 13:04:24 $
- * $Author: marj_nl_fr $
- */
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/17 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = 'Vous avez la possibilité de gérer les fichiers dans le dossier '.e_FILE.' depuis cette page. Si vous obtenez des erreurs au sujet de permissions en uploadant, veuillez faire un chmod 777 ou 755 sur le dossier où vous voulez envoyer le fichier (voir avec votre hébergeur pour plus de détails).';
-$ns -> tablerender('Gestionnaire de fichiers', $text);
+$text = "Vous pouvez g&eacute;rer les fichiers de votre r&eacute;pertoire de fichiers &agrave; partir de cette page. Si vous obtenez un message d&apos;erreur concernant les autorisations lors du t&eacute;l&eacute;chargement, veuillez modifier les droits &agrave; 777 (CHMOD) du r&eacute;pertoire dans lequel vous essayez de t&eacute;l&eacute;charger.";
+$ns -> tablerender("Aide gestionnaire de fichiers", $text);

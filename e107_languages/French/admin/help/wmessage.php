@@ -1,18 +1,16 @@
 <?php
-/**
- * Fichiers utf-8 français pour le CMS e107 version 0.8 α
- * accessoirement compatible 0.7.11
- * Licence GNU/GPL
- * Traducteurs: communauté française e107 http://etalkers.tuxfamily.org/
- *
- * $Source: /cvsroot/touchatou/e107_french/e107_languages/French/admin/help/wmessage.php,v $
- * $Revision: 1.6 $
- * $Date: 2008/06/16 15:03:43 $
- * $Author: marj_nl_fr $
- */
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/17 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = 'Cette page permet de rédiger un message de bienvenue ou informatif qui est placer en haut de la page d\'accueil.<br />
-Le message peut être différent pour les visiteurs, les membres, les administrateurs et autres groupes.';
-$ns -> tablerender('Aide sur WMessage', $text);
+$text = WMLAN_13 ;
+$ns -> tablerender( WMLAN_12, $text);

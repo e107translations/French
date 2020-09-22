@@ -1,63 +1,59 @@
 <?php
-/**
- * Fichiers utf-8 français pour le CMS e107 version 0.8 α
- * accessoirement compatible 0.7.11
- * Licence GNU/GPL
- * Traducteurs: communauté française e107 http://etalkers.tuxfamily.org/
- *
- * $Source: /cvsroot/touchatou/e107_french/e107_languages/French/admin/help/mailout.php,v $
- * $Revision: 1.8 $
- * $Date: 2008/07/26 21:15:50 $
- * $Author: marj_nl_fr $
- */
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/17 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
-if(ET_e107_Version_7 === true)
-{
-    $text = 'Utiliser cette page pour configurer vos paramètres email pour des fonctions d\'envois massifs de publipostages. Le formulaire d\'envoi de courrier vous permet également de faire un envoi groupé de courrier à tous vos utilisateurs.';
-}
-else
-{
-  if (e_QUERY) list($action,$junk) = explode('.',e_QUERY); else $action = 'makemail';
+
+$e107 = e107::getInstance();
+
+$action = e107::getParser()->toDB(varset($_GET['mode'],'makemail'));
 
   switch ($action)
   {
-	case 'justone' :
-	  $text = 'Envoie un mail avec les contraintes spécifiées par un plugin optionnel.';
-	  break;
-	case 'debug' :
-	  $text = 'Pour développeurs uniquement. Un deuxième paramètre de requête correspond au champ gen_type de la table <q>generic</q>. Ignorez les entêtes des colonnes.';
-	  break;
-	case 'list' :
-	  $text = 'Choisir et utiliser un modèle de mail sauvegardé pour un publipostage. La suppression de tous les modèles n\'est plus requis.';
-	  break;
-	case 'mailouts' :
-	  $text = 'Liste des publipostages sauvegardés. Permet de voir s\'ils ont été envoyés et ré-envoie tout email non envoyé.<br />';
-	  $text .= 'Affiche également certains détails, en particulier la raison de l\'erreur lors de l\'envoi si c\'est le cas.<br />';
-	  $text .= 'Pour ré-envoyer les mails en attente, cliquez sur le bouton <q>Ré-envoyer</q>. Cliquez ensuite sur <q>Exécuter</q> afin d\'ouvrir la fenêtre de progression.<br />';
-	  $text .= 'Pour annuler le publipostage il suffit de cliquer sur le bouton <q>Annuler</q>.';
-	  break;
-	case 'savedmail' :
-	case 'makemail' :
-	  $text = 'Créez un mail et sélectionnez la liste des destinataires. Vous pouvez enregistrer le mail en tant que modèle pour un usage ultérieur ou l\'envoyer directement.<br />';
-	  $text .= 'Toute pièce jointe est sélectionnée dans la liste des téléchargement.';
-	  break;
-	case 'prefs' :
-	  $text = '<b>Configuration des options de publipostage.</b><br />
-	  Un mail de test est envoyé en utilisant la méthode et les paramètres en court.<br /><br />';
-	  $text .= '<b>Méthode de publipostage</b><br />
-	  Pour envoyer des emails utiliser SMTP si possible. Les paramètres dépendent du serveur mail de votre hébergeur.<br /><br />';
-	  $text .= '<b>Retours emails</b><br />
-	  Retours automatiques de mails non délivrés.<br />
-	  Vous pouvez spécifier un compte POP3 afin de récupérer les réponses de mails non délivrés. Il s\'agit normalement d\'un compte standard. N\'utilisez les options TLS que si elles sont explicitement requisent par l\'hébergeur.<br /><br />';
-	  $text .= '<b>Sources adresses emails</b><br />
-      Si vous avez des plugins gérant les emails, vous pouvez choisir lesquels utiliser pour compléter les listes d\'emails.<br /><br />';
-	  $text .= '<b>Journaux</b><br />
-      L\'option journal créer un fichier texte dans le dossier log du plugin <q>statisques du site</q>. Il doit être effacé périodiquement. L\'option <q>Journal uniquement</q> permet de visualiser précisément qui pourrait recevoir le mail si réellement envoyé. L\'option <q>avec erreur</q> génère une erreur tous les 7 mails à des fins de tests.
-      ';
-	  break;
-	default :
-	  $text = 'Option non documentée.';
+		case 'justone' :
+			$text = "Envoie un mail avec les contraintes sp&eacute;cifi&eacute;es par un plugin optionnel.";
+			break;
+		case 'debug' :
+			$text = "Pour d&eacute;veloppeurs uniquement. Un deuxi&egrave;me param&egrave;tre de requ&ecirc;te correspond au champ gen_type de la table <q>generic</q>. Ignorez les ent&ecirc;tes des colonnes.";
+			break;
+		case 'list' :
+			$text = "Choisir et utiliser un mod&egrave;le de mail sauvegard&eacute; pour un publipostage. La suppression de tous les mod&egrave;les n&apos;est plus requis.";
+			break;
+		case 'mailouts' :
+			$text = "Liste des publipostages sauvegard&eacute;s. Permet de voir s&apos;ils ont &eacute;t&eacute; envoy&eacute;s et r&eacute;-envoie tout email non envoy&eacute;.<br />";
+			$text .= "Affiche &eacute;galement certains d&eacute;tails, en particulier la raison de l&apos;erreur lors de l&apos;envoi si c&apos;est le cas.<br />";
+			$text .= "Pour r&eacute;-envoyer les mails en attente, cliquez sur le bouton <q>R&eacute;-envoyer</q>. Cliquez ensuite sur <q>Ex&eacute;cuter</q> afin d&apos;ouvrir la fen&ecirc;tre de progression.<br />";
+			$text .= "Pour annuler le publipostage il suffit de cliquer sur le bouton <q>Annuler</q>.";
+			break;
+		case 'savedmail' :
+		case 'makemail' :
+			$text = "Cr&eacute;ez un mail et s&eacute;lectionnez la liste des destinataires. Vous pouvez enregistrer le mail en tant que mod&egrave;le pour un usage ult&eacute;rieur ou l&apos;envoyer directement.<br />";
+			$text .= "Toute pi&egrave;ce jointe est s&eacute;lectionn&eacute;e dans la liste des t&eacute;l&eacute;chargements.";
+			break;
+		case 'prefs' :
+			$text = "<b>Configuration des options de publipostage.</b><br />
+			Un mail de test est envoy&eacute; en utilisant la m&eacute;thode et les param&egrave;tres en court.<br /><br />";
+			$text .= "<b>M&eacute;thode de publipostage</b><br />
+			Pour envoyer des emails utiliser SMTP si possible. Les param&egrave;tres d&eacute;pendent du serveur mail de votre h&eacute;bergeur.<br /><br />";
+			$text .= "<b>Retours emails</b><br />
+			Retours automatiques de mails non d&eacute;livr&eacute;s.<br />
+			Vous pouvez sp&eacute;cifier un compte POP3 afin de r&eacute;cup&eacute;rer les r&eacute;ponses de mails non d&eacute;livr&eacute;s. Il s&apos;agit normalement d&apos;un compte standard. N&apos;utilisez les options TLS que si elles sont explicitement requisent par l&apos;h&eacute;bergeur.<br /><br />";
+			$text .= "<b>Sources adresses emails</b><br />
+				Si vous avez des plugins g&eacute;rant les emails, vous pouvez choisir lesquels utiliser pour compl&eacute;ter les listes d&apos;emails.<br /><br />";
+			$text .= "<b>Journaux</b><br />
+				L&apos;option journal cr&eacute;er un fichier texte dans le dossier log du plugin &lt;q&gt;statisques du site</q>. Il doit &ecirc;tre effac&eacute; p&eacute;riodiquement. L&apos;option <q>Journal uniquement</q> permet de visualiser pr&eacute;cis&eacute;ment qui pourrait recevoir le mail si r&eacute;ellement envoy&eacute;. L&apos;option <q>avec erreur</q> g&eacute;n&egrave;re une erreur tous les 7 mails &agrave; des fins de tests.
+				";
+			break;
+		default :
+			$text = "Option non document&eacute;e.";
   }
-}
-$ns -> tablerender('Aide publipostage', $text);
+
+$ns -> tablerender("Aide publipostage", $text);

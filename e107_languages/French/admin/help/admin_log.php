@@ -1,30 +1,29 @@
 <?php
-/**
- * Fichiers utf-8 français pour le CMS e107 version 0.8 α
- * accessoirement compatible 0.7.11
- * Licence GNU/GPL
- * Traducteurs: communauté française e107 http://etalkers.tuxfamily.org/
- *
- * $Source: /cvsroot/touchatou/e107_french/e107_languages/French/admin/help/admin_log.php,v $
- * $Revision: 1.2 $
- * $Date: 2008/07/26 21:15:50 $
- * $Author: marj_nl_fr $
- */
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/17 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = 'Aide logs système';
-if (e_QUERY) list($action,$junk) = explode('.',e_QUERY); else $action = 'list';
+$caption = "Aide logs syst&egrave;me";
+if (e_QUERY) list($action,$junk) = explode('.',e_QUERY); else $action = "list";
 
 function common_filters()
 {
-  $ret = '
+  $ret = "
   <br /><br />
-  <b>Filtres de données</b><br />
-  Vous pouvez spécifier divers filtres diminuant le nombre de données affichées. Les données sont enregistrées dans un cookie jusqu\'à la déconnexion.<br />
-  Les filtres date de début et fin doivent être activés par leur case à cocher respective.<br />
-  Les autres filtres sont actifs lorsqu\'une valeur est saisie.<br />
-  ';
+  <b>Filtres de donn&eacute;es</b><br />
+  Vous pouvez sp&eacute;cifier divers filtres diminuant le nombre de donn&eacute;es affich&eacute;es. Les donn&eacute;es sont enregistr&eacute;es dans un cookie jusqu&apos;&agrave; la d&eacute;connexion.<br />
+  Les filtres date de d&eacute;but et fin doivent &ecirc;tre activ&eacute;s par leur case &agrave; cocher respective.<br />
+  Les autres filtres sont actifs lorsqu&apos;une valeur est saisie.<br />
+  ";
   return $ret;
 }
 
@@ -32,48 +31,48 @@ function common_filters()
 switch ($action)
 {
 case 'auditlog' :
-  $text = 'Log d\'activité des utilisateurs.';
+  $text = "Log d&apos;activit&eacute; des utilisateurs.";
   $text .= common_filters();
   break;
 case 'config' :
-  $text = 'Page de configuration des diverses options du système de logs.<br /><br />
-  <b>Paramètres génériques</b><br />
-  Nombre de lignes à afficher.<br /><br />
+  $text = "Page de configuration des diverses options du syst&egrave;me de logs.<br /><br />
+  <b>Param&egrave;tres g&eacute;n&eacute;riques</b><br />
+  Nombre de lignes &agrave; afficher.<br /><br />
   <b>Logs admin</b><br />
-  Ces logs conservent les évènements tant qu\'ils ne sont pas spécifiquement supprimés.<br />
-  Utiliser cette option pour supprimer les anciens évènements.<br /><br />
+  Ces logs conservent les &eacute;v&egrave;nements tant qu&apos;ils ne sont pas sp&eacute;cifiquement supprim&eacute;s.<br />
+  Utiliser cette option pour supprimer les anciens &eacute;v&egrave;nements.<br /><br />
   <b>Logs audit utilisateurs</b><br />
-  Ces logs enregistrent les activités des utilisateurs.<br />
-  Seuls les membres du groupe spécifié sont suivis. Ils est possible d\'utiliser le groupe <q>tous le monde</q> ou de créer un groupe spécifique.<br />
-  Déterminer ensuite les types d\'évènements que vous souhaitez suivre.<br />
-  Les évènements d\'inscriptions peuvent être suivis séparément.<br /><br />
+  Ces logs enregistrent les activit&eacute;s des utilisateurs.<br />
+  Seuls les membres du groupe sp&eacute;cifi&eacute; sont suivis. Ils est possible d&apos;utiliser le groupe <q>tous le monde</q> ou de cr&eacute;er un groupe sp&eacute;cifique.<br />
+  D&eacute;terminer ensuite les types d&apos;&eacute;v&egrave;nements que vous souhaitez suivre.<br />
+  Les &eacute;v&egrave;nements d&apos;inscriptions peuvent &ecirc;tre suivis s&eacute;par&eacute;ment.<br /><br />
   <b>Logs circulaires</b><br />
-  Les logs circulaires affichent divers évènements anormaux et offrent une assistance en mode debug.<br />
-  Il est possible de les désactiver.<br />
-  Les évènements sont automatiquement supprimés après le temps imparti.';
+  Les logs circulaires affichent divers &eacute;v&egrave;nements anormaux et offrent une assistance en mode debug.<br />
+  Il est possible de les d&eacute;sactiver.<br />
+  Les &eacute;v&egrave;nements sont automatiquement supprim&eacute;s apr&egrave;s le temps imparti.";
   break;
 case 'rolllog' :
-  $text = 'Les logs circulaires affichent divers évènements anormaux.<br />
-  Ils peuvent également être utilisés en mode debug.';
+  $text = "Les logs circulaires affichent divers &eacute;v&egrave;nements anormaux.<br />
+  Ils peuvent &eacute;galement &ecirc;tre utilis&eacute;s en mode debug.";
   $text .= common_filters();
   break;
 case 'downlog' :
-  $text = 'Téléchargements effectués par les utilisateurs.';
+  $text = "T&eacute;l&eacute;chargements effectu&eacute;s par les utilisateurs.";
   $text .= common_filters();
   break;
 case 'comments' :
-  $text = 'Affichage des commentaires utilisateurs sélectionnables par ID, type et date.<br />
-  Les commentaires indésirables peuvent être supprimés.';
+  $text = "Affichage des commentaires utilisateurs s&eacute;lectionnables par ID, type et date.<br />
+  Les commentaires ind&eacute;sirables peuvent &ecirc;tre supprim&eacute;s.";
   break;
 case 'detailed' :
-  $text = 'Le système principal de logs enregistre l\'heure avec précision si le serveur le supporte.<br />
-  Cette page permet une inspection des entrées dans une fenêtre temporelle relativement petite.<br />
-  Les entrées logs admin, audit et circulaires sont fusionnées de façon à visualiser les relations entre évènements.';
+  $text = "Le syst&egrave;me principal de logs enregistre l&apos;heure avec pr&eacute;cision si le serveur le supporte.<br />
+  Cette page permet une inspection des entr&eacute;es dans une fen&ecirc;tre temporelle relativement petite.<br />
+  Les entr&eacute;es logs admin, audit et circulaires sont fusionn&eacute;es de fa&ccedil;on &agrave; visualiser les relations entre &eacute;v&egrave;nements.";
   break;
 case 'adminlog' :
 default :
-  $text = 'Log d\'activité administration.<br />
-  Actuellement les logs sont encore ajoutés dans le code. En conséquence la liste est incomplète.';
+  $text = "Log d&apos;activit&eacute; administration.<br />
+  (Actuellement les logs sont encore ajout&eacute;s dans le code. En cons&eacute;quence la liste est incompl&egrave;te.)<br /><br />";
   $text .= common_filters();
 }
 $ns -> tablerender($caption, $text);

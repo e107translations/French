@@ -11,11 +11,11 @@
 */
 
 define("LAN_PLUGIN_GALLERY_TITLE", "Galerie");
-define("LAN_PLUGIN_GALLERY_DIZ", "Une simple galerie d'images");
+define("LAN_PLUGIN_GALLERY_DIZ", "Une simple galerie d&apos;images");
 define("LAN_PLUGIN_GALLERY_SEF_01", "SEF galerie");
-define("LAN_PLUGIN_GALLERY_SEF_02", "URL SEF activées.");
-define("LAN_PLUGIN_GALLERY_SEF_03", "URL SEF désactivées.");
-define("LAN_PLUGIN_GALLERY_SEF_04", "Galerie par défaut");
+define("LAN_PLUGIN_GALLERY_SEF_02", "URL SEF activ&eacute;es.");
+define("LAN_PLUGIN_GALLERY_SEF_03", "URL SEF d&eacute;sactiv&eacute;es.");
+define("LAN_PLUGIN_GALLERY_SEF_04", "Galerie par d&eacute;faut");
 
 
 ?>

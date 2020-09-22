@@ -1,25 +1,24 @@
 <?php
-/**
- * Fichiers utf-8 français pour le CMS e107 version 0.8 α
- * accessoirement compatible 0.7.11
- * Licence GNU/GPL
- * Traducteurs: communauté française e107 http://etalkers.tuxfamily.org/
- *
- * $Source: /cvsroot/touchatou/e107_french/e107_languages/French/admin/help/lancheck.php,v $
- * $Revision: 1.3 $
- * $Date: 2008/06/16 15:03:43 $
- * $Author: marj_nl_fr $
- */
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/18 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = '<strong>Attention:</strong> Cet outil est encore en voie de développement. Certaines fonctionnalités peuvent donc créer des surprises. Notamment:<br /><br />
-* LC_ALL n\'est pas reconnu si suivi de plus d\'une chaine de caractères, ce qui est le cas dans French.php<br />
-* Certaines phrases sont déclarées comme manquantes bien qu\'elles soient vides dans la version anglaise. S\'assurer que la constante soit en rouge en mode édition<br />
-* Les chaines sont réécritent entre guillemets doubles. Veillez à protéger ceux inclus dans le texte si besoin <strong>\"</strong><br />
-* Cet outil est à éviter sur les fichiers de langue française du noyau.<br />
+$text = "<strong>Attention:</strong> Cet outil est encore en voie de d&eacute;veloppement. Certaines fonctionnalit&eacute;s peuvent donc cr&eacute;er des surprises. Notamment:<br /><br />
+* LC_ALL n&apos;est pas reconnu si suivi de plus d&apos;une cha&icirc;ne de caract&egrave;res, ce qui est le cas dans French.php<br />
+* Certaines phrases sont d&eacute;clar&eacute;es comme manquantes bien qu&apos;elles soient vides dans la version anglaise. S&apos;assurer que la constante soit en rouge en mode &eacute;dition<br />
+* Les cha&icirc;nes sont r&eacute;&eacute;crites entre guillemets doubles. Veillez &agrave; prot&eacute;ger ceux inclus dans le texte si besoin <strong>\"</strong><br />
+* Cet outil est &agrave; &eacute;viter sur les fichiers de langue fran&ccedil;aise du noyau.<br />
 
-pour plus d\'informations rendez vous sur le forum de http://etalkers.tuxfamily.org/<br /><br />
+pour plus d&apos;informations rendez vous sur le forum de http://etalkers.tuxfamily.org/<br /><br />
 
-<br /><br />eTalkers team';
-$ns -> tablerender('Vérification langues', $text);
+<br /><br />eTalkers team";
+$ns -> tablerender('Aide v&eacute;rification langues', $text);

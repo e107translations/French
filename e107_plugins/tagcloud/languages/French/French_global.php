@@ -10,5 +10,5 @@
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_TAGCLOUD_NAME", "Nuage de mots-clés");
-define("LAN_PLUGIN_TAGCLOUD_DESCRIPTION", "Un simple menu de mots-clés pour votre site web e107.");
+define("LAN_PLUGIN_TAGCLOUD_NAME", "Nuage de mots-cl&eacute;s");
+define("LAN_PLUGIN_TAGCLOUD_DESCRIPTION", "Un simple menu de mots-cl&eacute;s pour votre site web e107.");

@@ -10,8 +10,5 @@
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_TRACKBACK_NAME", "Rétrolien");
-define("LAN_PLUGIN_TRACKBACK_DESCRIPTION", "Cette extension vous permet d'utiliser les r�troliens dans vos publications d'articles.");
-
-
-?>
+define("LAN_PLUGIN_TRACKBACK_NAME", "R&eacute;trolien");
+define("LAN_PLUGIN_TRACKBACK_DESCRIPTION", "Cette extension vous permet d&apos;utiliser les r&eacute;troliens dans vos publications d&apos;articles.");

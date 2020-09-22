@@ -1,12 +1,17 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_PRINT_86", "Catégorie : ");
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/18 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
+define("LAN_PRINT_86", "Cat&eacute;gorie : ");
 define("LAN_PRINT_87", "par ");
-define("LAN_PRINT_94", "Publié par");
+define("LAN_PRINT_94", "Publi&eacute; par");
 define("LAN_PRINT_135", "Article :");
 define("LAN_PRINT_303", "Cet article est de ");
 define("LAN_PRINT_305", "Sous-titre : ");

@@ -12,7 +12,7 @@
 
 define("LAN_THEMEPREF_00", "Image de marque :");
 define("LAN_THEMEPREF_01", "Alignement de la barre de navigation");
-define("LAN_THEMEPREF_02", "Emplacement de l'Inscription/Connexion");
+define("LAN_THEMEPREF_02", "Emplacement de l&apos;Inscription/Connexion");
 define("LAN_THEMEPREF_03", "Styles de bootswatch :");
 define("LAN_THEMEPREF_04", "Nom du site");
 define("LAN_THEMEPREF_05", "Logo");

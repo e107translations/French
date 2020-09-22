@@ -1,42 +1,36 @@
 <?php
-/**
- * Fichiers utf-8 français pour le CMS e107 version 0.8 α
- * accessoirement compatible 0.7.11
- * Licence GNU/GPL
- * Traducteurs: communauté française e107 http://etalkers.tuxfamily.org/
- *
- * $Source: /cvsroot/touchatou/e107_french/e107_languages/French/admin/help/upload.php,v $
- * $Revision: 1.6 $
- * $Date: 2008/06/23 21:59:39 $
- * $Author: marj_nl_fr $
- */
+/*
++---------------------------------------------------------------+
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/17 10:43:34
+|
+|        $Author: Olivier Troccaz $
++---------------------------------------------------------------+
+*/
  
 if (!defined('e107_INIT')) { exit; }
 
-if(ET_e107_Version_7 === true)
-{
-    $text = 'Ici vous pouvez autoriser/refuser que les utilisateurs téléchargent des fichiers, et contrôler les téléchargements de fichiers.';
-}
-else
-{
-    if (e_QUERY) list($action,$junk) = explode('.',e_QUERY); else $action = 'list';
+if (e_QUERY) list($action,$junk) = explode('.',e_QUERY); else $action = 'list';
 
-    switch ($action)
-    {
-        case 'filetypes' :
-            $text = 'Les types de fichiers et la taille maximale autorisée sont définis par groupes. Ces options génèrent le fichier '.e_UPLOAD_TEMP_DIR.e_SAVE_FILETYPES.', qui doit être copier ou déplacé dans le dossier '.e_ADMIN_ABS.' et renommé en '.e_READ_FILETYPES.' avant d\'être utilisable.<br />
-            Seulement une définition par groupe est autorisée.<br />
-            Notez que ces définitions s\'applique pour l\'ensemble du site, même si les uploads sont désactivés.';
-        break;
-        case 'options' :
-            $text = 'Le système d\'uploads peut être entièrement désactivé depuis ici.<br />
-            Le type de stockage fichier est généralement le plus approprié, sinon la taille maximale de fichier est limitée à 500ko.<br />
-            La taille maximale de fichier prend le pas sur toute définition de filetypes.xml.<br />
-            Les uploads peuvent être restreints à un groupe particulier, mais ces paramètres s\'appliquent à d\'autres zones du site où ils peuvent être autorisés tel les news et formulaires.';
-        break;
-        case 'view' :
-        default :
-            $text = 'Cette page liste les uploads proposés. Vous pouvez choisir de les supprimer, les transférer en téléchargement ou les poster en news.';
-    }
+switch ($action)
+{
+	case 'filetypes' :
+		$text = "Les types de fichiers et la taille maximale des fichiers pouvant &ecirc;tre t&eacute;l&eacute;charg&eacute;s sont d&eacute;finis par classe d&apos;utilisateurs. Cette option g&eacute;n&egrave;re un fichier appel&eacute; ".e_UPLOAD_TEMP_DIR.e_SAVE_FILETYPES.",
+		qui doit &ecirc;tre copi&eacute; ou d&eacute;plac&eacute; dans le r&eacute;pertoire ".e_ADMIN_ABS." et renomm&eacute; ".e_READ_FILETYPES." avant qu&apos;il ne prenne effet.<br />
+		Une seule d&eacute;finition par classe est autoris&eacute;e.<br />
+		Notez que ces d&eacute;finitions s&apos;appliquent &agrave; l&apos;ensemble du site, m&ecirc;me si la fonction de t&eacute;l&eacute;chargement publique est d&eacute;sactiv&eacute;e.";
+	break;
+	case 'options' :
+		$text = "Le syst&egrave;me complet de t&eacute;l&eacute;chargement publique peut &ecirc;tre d&eacute;sactiv&eacute; ici.
+		Le type de stockage fichier est g&eacute;n&eacute;ralement appropri&eacute; (sinon la taille maximale du fichier est limit&eacute;e &agrave; 500 ko).
+		La taille maximale des fichiers a priorit&eacute; sur toute d&eacute;finition figurant dans le fichier filetypes.xml.<br />
+		Les t&eacute;l&eacute;chargements publiques peuvent &ecirc;tre limit&eacute;s &agrave; une classe d&apos;utilisateurs particuli&egrave;re, mais ces param&egrave;tres s&apos;appliquent &eacute;galement &agrave; d&apos;autres zones du site o&ugrave; les t&eacute;l&eacute;chargements peuvent &ecirc;tre autoris&eacute;s, comme les actualit&eacute;s et formulaires.";
+	break;
+	case 'view' :
+	default :
+		$text = "Cette page r&eacute;pertorie tous les t&eacute;l&eacute;chargements soumis. Vous pouvez choisir de les supprimer, de les transf&eacute;rer vers les t&eacute;l&eacute;chargements ou de les publier dans les actualit&eacute;s.";
 }
-$ns -> tablerender('Aide téléchargements', $text);
+
+$ns -> tablerender('Aide t&eacute;l&eacute;chargements publiques', $text);

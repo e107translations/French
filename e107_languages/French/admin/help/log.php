@@ -1,14 +1,15 @@
 <?php
 /*
 +---------------------------------------------------------------+
-| Fichiers de langage Français e107 CMS (utf-8). License GNU/PGL
-| Traducteurs: communauté française e107
-|     $Source: /cvsroot/e107/e107_langpacks/e107_languages/French/admin/help/log.php,v $
-|     $Revision: 1.1 $
-|     $Date: 2006/04/08 19:49:11 $
-|     $Author: daddycool78 $
+|        e107 website content management system French Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2020/09/18 10:43:34
+|
+|        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-  $text = "Activez les statistiques à partir de cette page. Si vous avez peu d'espace disque, cochez 'Domaine seulement';pour le référent, cela enregistrera seulement le domaine par opposition à l'url complète, c'est-à-dire, 'jalist.com' au lieu de ' http: // jalist.com/links.php ";
-  $ns -> tablerender("Aide", $text);
-  ?>
+
+$text = "Activez les statistiques &agrave; partir de cette page. Si vous avez peu d&apos;espace disque, cochez &apos;Domaine seulement&apos;;pour le r&eacute;f&eacute;rent, cela enregistrera seulement le domaine par opposition &agrave; l&apos;url compl&egrave;te, c&apos;est-&agrave;-dire, &apos;jalist.com&apos; au lieu de &apos;http: // jalist.com/links.php&apos;";
+$ns -> tablerender("Aide statistiques", $text);
+?>

@@ -10,18 +10,18 @@
 +---------------------------------------------------------------+
 */
 
-define("LAN_NEWS_ADMIN_00", "Dernières éléments d'actualités");
-define("LAN_NEWS_ADMIN_01", "Éléments d'actualités en post-it");
-define("LAN_NEWS_ADMIN_02", "Éléments d'actualités affectés");
-define("LAN_NEWS_ADMIN_03", "Limiter les éléments d'actualité à une catégorie spécifique");
-define("LAN_NEWS_ADMIN_04", "Les éléments affectés sont ceux dont le modèle est 'Menu grille d'actualités'");
-define("LAN_NEWS_ADMIN_05", "Nombre d'éléments à afficher");
-define("LAN_NEWS_ADMIN_06", "Limite de caractères de titre");
-define("LAN_NEWS_ADMIN_07", "Limite de caractères de résumé");
-define("LAN_NEWS_ADMIN_08", "Afficher le lien de l'archive");
+define("LAN_NEWS_ADMIN_00", "Derniers &eacute;l&eacute;ments d&apos;actualit&eacute;s");
+define("LAN_NEWS_ADMIN_01", "&Eacute;l&eacute;ments d&apos;actualit&eacute;s en post-it");
+define("LAN_NEWS_ADMIN_02", "&Eacute;l&eacute;ments d&apos;actualit&eacute;s affect&eacute;s");
+define("LAN_NEWS_ADMIN_03", "Limiter les &eacute;l&eacute;ments d&apos;actualit&eacute;s &agrave; une cat&eacute;gorie sp&eacute;cifique");
+define("LAN_NEWS_ADMIN_04", "Les &eacute;l&eacute;ments affect&eacute;s sont ceux dont le mod&egrave;le est &apos;Menu grille d&apos;actualit&eacute;s&apos;");
+define("LAN_NEWS_ADMIN_05", "Nombre d&apos;&eacute;l&eacute;ments &agrave; afficher");
+define("LAN_NEWS_ADMIN_06", "Limite de caract&egrave;res de titre");
+define("LAN_NEWS_ADMIN_07", "Limite de caract&egrave;res de r&eacute;sum&eacute;");
+define("LAN_NEWS_ADMIN_08", "Afficher le lien de l&apos;archive");
 define("LAN_NEWS_ADMIN_09", "Limites");
-define("LAN_NEWS_ADMIN_10", "Nombre d'éléments");
-define("LAN_NEWS_ADMIN_11", "Les éléments affectés sont ceux dont le modèle est 'Carrousel d'actualités'");
+define("LAN_NEWS_ADMIN_10", "Nombre d&apos;&eacute;l&eacute;ments");
+define("LAN_NEWS_ADMIN_11", "Les &eacute;l&eacute;ments affect&eacute;s sont ceux dont le mod&egrave;le est &apos;Carrousel d&apos;actualit&eacute;s&apos;");
 
 
 ?>
