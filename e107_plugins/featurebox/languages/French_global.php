@@ -9,11 +9,7 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-define("LAN_PLUGIN_FEATUREBOX_NAME", "Ils sont &agrave; l&apos;affiche");
+define("LAN_PLUGIN_FEATUREBOX_NAME", "Bo&icirc;te de fonction");
 define("LAN_PLUGIN_FEATUREBOX_DESCRIPTION", "Affiche une zone anim&eacute;e sur le haut de votre page avec les articles et autres contenus que vous souhaitez mettre en avant.");
 define("LAN_PLUGIN_FEATUREBOX_BATCH", "Cr&eacute;er un &eacute;l&eacute;ment de bo&icirc;te de fonction");
-define("FBLAN_INSTALL_01", "Ajouter une table de donn&eacute;es de cat&eacute;gorie par d&eacute;faut.");
-define("FBLAN_INSTALL_02", "Ajouter une table de donn&eacute;es par d&eacute;faut.");
-define("FBLAN_INSTALL_03", "Non assign&eacute;");
-define("FBLAN_INSTALL_04", "Carrousel");
-define("FBLAN_INSTALL_05", "Onglets");
+define("LAN_PLUGIN_FEATUREBOX_RSSFEED", "C&apos;est le flux rss pour les entr&eacute;es de la bo&icirc;te de fonction.");
