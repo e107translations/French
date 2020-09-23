@@ -13,7 +13,7 @@
 if (!defined('e107_INIT')) { exit; }
 
 $caption = "Exclure des utilisateurs de votre site";
-if (e_QUERY) list($action,$junk) = explode('.',e_QUERY); else $action = 'list'
+if (e_QUERY) list($action,$junk) = explode('.',e_QUERY); else $action = 'list';
 switch ($action)
 {
 case 'transfer' :
