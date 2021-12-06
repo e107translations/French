@@ -132,3 +132,4 @@ define("FORLAN_219", "&Eacute;diteur de texte enrichi");
 define("FORLAN_220", "R&eacute;dacteur en chef");
 define("FORLAN_221", "Quel &eacute;diteur doit &ecirc;tre utilis&eacute; pour cr&eacute;er/&eacute;diter des messages ?");
 define("FORLAN_222", "&Eacute;diteur de r&eacute;ponse rapide");
+define("FORLAN_223", "N'utilisez que du texte brut (pas de bbcode ou de html autorisé !).	");

@@ -15,3 +15,5 @@ define("TMCEALAN_3", "Activez cette option si le correcteur orthographique inter
 define("TMCEALAN_4", "Blocs visuels");
 define("TMCEALAN_5", "Activer pour rendre les blocs html visibles lors de l&apos;&eacute;dition.");
 define("TMCEALAN_6", "Classe CSS pour la mise en &eacute;vidence du code.");
+define("TMCEALAN_7", "Utiliser le style frontal");
+define("TMCEALAN_8", "Lorsqu'il est activé, l'éditeur utilisera le style du thème frontal. (si supporté)");

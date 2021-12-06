@@ -38,3 +38,4 @@ define("GSLAN_36", "Vous pouvez &eacute;galement entrer manuellement des liens i
 define("GSLAN_37", "Une fois que vous avez quelques entr&eacute;es, visitez le site [URL] et saisissez l&apos;URL suivante -> <b>". SITEURL."gsitemap.php</b> - si cette URL ne vous semble pas correcte, veuillez vous assurer que l&apos;URL de votre site est correctement renseign&eacute;e dans la partie administration -> pr&eacute;f&eacute;rences");
 define("GSLAN_38", "Pour plus d&apos;informations sur le protocole Google Sitemap, consultez [URL].");
 define("GSLAN_39", "Aucun lien dans le plan du site - importer des liens de site ?");
+define("GSLAN_50", "Visible par le public");
