@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("LCLAN_19", "Type d&apos;ouverture du lien");
 define("LCLAN_20", "S&apos;ouvre dans la m&ecirc;me fen&ecirc;tre");
 define("LCLAN_23", "S&apos;ouvre dans une nouvelle fen&ecirc;tre");
@@ -25,6 +24,11 @@ define("LCLAN_108", "Certaines s&eacute;lections omises - vous ne pouvez d&eacut
 define("LCLAN_109", "Veuillez choisir un parent");
 define("LCLAN_110", "Veuillez choisir un module g&eacute;n&eacute;rateur");
 define("LCLAN_111", "Donn&eacute;es du module g&eacute;n&eacute;rateur non valides");
+define("LCLAN_112", "1 - Principal");
+define("LCLAN_113", "2 - Barre latérale");
+define("LCLAN_114", "3 - Pied de page");
+define("LCLAN_115", "Alt.");
+define("LCLAN_116", "(Non attribué)");
 define("LINKLAN_1", "S&apos;ouvre dans une fen&ecirc;tre de 800x600");
 define("LINKLAN_4", "G&eacute;n&eacute;rateur de sous-liens");
 define("LINKLAN_5", "G&eacute;n&eacute;rer les sous-liens");

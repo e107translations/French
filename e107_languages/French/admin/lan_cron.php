@@ -25,6 +25,7 @@ define("LAN_CRON_04_2", "Red&eacute;clenchements du processus de rebond.");
 define("LAN_CRON_04_3", "N&eacute;cessaire uniquement si le red&eacute;clenchement des exclusions est activ&eacute;.");
 define("LAN_CRON_05_1", "Sauvegarde de la base de donn&eacute;es");
 define("LAN_CRON_05_2", "Sauvegarder la base de donn&eacute;es syst&egrave;me vers");
+define("LAN_CRON_06_1", "Déclenchement de l'interdiction de processus");
 define("LAN_CRON_6", "Impossible d&apos;importer les pr&eacute;f&eacute;rences");
 define("LAN_CRON_7", "Impossible d&apos;importer les param&egrave;tres de synchronisation");
 define("LAN_CRON_8", "Import des param&egrave;tres de synchronisation pour");

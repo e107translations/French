@@ -117,4 +117,5 @@ define("TPVLANHELP_02", "Consultez les infobulles (lorsque disponibles) pour plu
 define("TPVLANHELP_03", "Par d&eacute;faut, le filtre de visibilit&eacute; modifiera la disposition du th&egrave;me en fonction d&apos;une correspondance partielle avec l&apos;URL.");
 define("TPVLANHELP_04", "Les lignes de fin avec un [b]![/b] doivent correspondre exactement &agrave; la fin de l&apos;URL.");
 define("TPVLANHELP_05", "Les lignes de fin avec un [b]$[/b] doivent correspondre exactement &agrave; la fin du chemin du script.");
+define("TPVLANHELP_06", "Commencez les lignes par un [b] :[/b] pour une correspondance partielle ou complète avec e107::route().");
 define("TPVLAN_97", "Ce th&egrave;me n&eacute;cessite une version plus r&eacute;cente de e107.");

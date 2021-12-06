@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("FC_LAN_1", "Inspecteur de fichier");
 define("FC_LAN_5", "Fichiers du noyau");
 define("FC_LAN_6", "Probl&egrave;me d&apos;int&eacute;grit&eacute; uniquement");
@@ -59,7 +58,6 @@ define("FR_LAN_17", "Si vous &ecirc;tes un utilisateur SVN");
 define("FR_LAN_18", "Si vous utilisez des fichiers SVN au lieu des sorties stables et officielles d&apos;e107, alors il se peut que les fichiers &eacute;chouent au contr&ocirc;le d&apos;int&eacute;grit&eacute; puisqu&apos;ils ont &eacute;t&eacute; &eacute;dit&eacute;s par un d&eacute;veloppeur apr&egrave;s que la derni&egrave;re image du noyau soit cr&eacute;&eacute;e.");
 define("FR_LAN_19", "fichiers ont &eacute;chou&eacute; au contr&ocirc;le");
 define("FR_LAN_20", "Tous les fichiers ont pass&eacute; le contr&ocirc;le");
-define("FR_LAN_21", "aucun");
 define("FR_LAN_22", "Fichiers du noyau manquant");
 define("FR_LAN_23", "Aucune correspondance trouv&eacute;e.");
 define("FR_LAN_24", "Anciens fichiers du noyau");
@@ -68,6 +66,7 @@ define("FR_LAN_26", "Avertissement ! Probl&egrave;me de s&eacute;curit&eacute; c
 define("FR_LAN_27", "Il y a des fichiers sur votre serveur qui sont connus pour &ecirc;tre dangereux et doivent &ecirc;tre enlev&eacute;s imm&eacute;diatement.");
 define("FR_LAN_28", "Fichiers dangereux connus");
 define("FR_LAN_32", "Vous devez d&apos;abord effectuer un scan !");
+define("FR_LAN_33", "Commencez par");
 define("FS_LAN_1", "Cr&eacute;er une image instantan&eacute;e");
 define("FS_LAN_2", "Chemin absolu vers le dossier racine de l&apos;image &agrave; cr&eacute;er");
 define("FS_LAN_3", "Cr&eacute;er une image instantan&eacute;e pour l&apos;extension: (votre extension est list&eacute;e lorsqu&apos;un ficher e_inspect.php accessible en &eacute;criture est disponible dans le dossier racine de l&apos;extension.)");
