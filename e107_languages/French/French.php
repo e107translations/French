@@ -90,6 +90,7 @@ define("LAN_NEXT", "Suivant");
 define("LAN_PREVIOUS", "Pr&eacute;c&eacute;dent");
 define("LAN_LOGIN", "Ouverture de session");
 define("LAN_LOGOUT", "Fermeture de session");
+define("LAN_VERIFY", "Vérifier");
 define("LAN_SETTINGS", "Param&egrave;tres");
 define("LAN_PASSWORD", "Mot de passe");
 define("LAN_INCORRECT_PASSWORD", "Mot de passe incorrect");

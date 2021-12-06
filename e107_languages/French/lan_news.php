@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-define("PAGE_NAME", "Agenda");
 define("LAN_NEWS_1", "Articles r&eacute;serv&eacute;s &agrave; des membres particuliers seulement");
 define("LAN_NEWS_2", "Vous n&apos;&ecirc;tes pas autoris&eacute; &agrave; voir cet article");
 define("LAN_NEWS_9", "Seul le titre est d&eacute;fini - <b>seul le titre de l&apos;article sera affich&eacute;</b><br>");
@@ -35,7 +34,7 @@ define("LAN_NEWS_87", "Articles plus r&eacute;cents");
 define("LAN_NEWS_462", "Aucun article pour le mois sp&eacute;cifi&eacute;");
 define("LAN_NEWS_463", "Il n&apos;y a aucun article dans la cat&eacute;gorie sp&eacute;cifi&eacute;e - veuillez v&eacute;rifier prochainement.");
 define("LAN_NEWS_464", "Pas d&apos;article pour le jour sp&eacute;cifi&eacute;");
-define("LAN_NEWS_100", "Le");
+define("LAN_NEWS_300", "Sur");
 define("LAN_NEWS_307", "Total de publications dans cette cat&eacute;gorie :");
 define("LAN_NEWS_308", "Peut-&ecirc;tre cherchez-vous une des actualit&eacute;s ci-dessous ?");
 define("LAN_NEWS_309", "Tag");
