@@ -28,6 +28,3 @@ define("LAN_LIBRARY_MANAGER_29", "Chemin de la librairie");
 define("LAN_LIBRARY_MANAGER_30", "Param&egrave;tres du r&eacute;seau de diffusion de contenu");
 define("LAN_LIBRARY_MANAGER_31", "Utiliser un r&eacute;seau de diffusion de contenu pour les librairies du noyau");
 define("LAN_LIBRARY_MANAGER_32", "Fournisseur du r&eacute;seau de diffusion de contenu");
-
-
-?>
