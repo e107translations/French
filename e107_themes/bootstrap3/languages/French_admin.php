@@ -23,4 +23,3 @@ define("LAN_THEMEPREF_09", "haut");
 define("LAN_THEMEPREF_10", "bas");
 
 
-?>
