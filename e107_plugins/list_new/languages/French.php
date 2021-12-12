@@ -63,4 +63,3 @@ define("LIST_DOWNLOAD_1", "t&eacute;l&eacute;chargements");
 define("LIST_DOWNLOAD_2", "aucun t&eacute;l&eacute;chargement");
 
 
-?>

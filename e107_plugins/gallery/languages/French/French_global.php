@@ -18,4 +18,3 @@ define("LAN_PLUGIN_GALLERY_SEF_03", "URL SEF d&eacute;sactiv&eacute;es.");
 define("LAN_PLUGIN_GALLERY_SEF_04", "Galerie par d&eacute;faut");
 
 
-?>

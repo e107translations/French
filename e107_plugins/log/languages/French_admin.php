@@ -96,4 +96,3 @@ define("ADSTAT_LAN_90", "Donn&eacute;es sauvegard&eacute;es dans la base de donn
 define("ADSTAT_LAN_91", "Impossible de sauvegarder les donn&eacute;es dans la base de donn&eacute;es avec id: [x]");
 
 
-?>
