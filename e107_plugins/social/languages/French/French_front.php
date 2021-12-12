@@ -25,4 +25,3 @@ define("LAN_SOCIAL_205", "Impossible de rendre des commentaires. Il manque l&apo
 define("LAN_SOCIAL_WARNING", "Les commentaires de Facebook exigent que vous ayez un identifiant d&apos;application Facebook. Consultez la zone &apos;connexion sociale&apos; dans les pr&eacute;f&eacute;rences d&apos;administration pour en ajouter une.");
 
 
-?>

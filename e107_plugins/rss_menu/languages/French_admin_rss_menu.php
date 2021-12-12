@@ -77,4 +77,3 @@ define("RSS_LAN_2", "@aucunspam.fr");
 define("RSS_LAN_3", "aucunauteur@aucunspam.fr");
 
 
-?>

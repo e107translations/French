@@ -24,4 +24,3 @@ define("LAN_NEWS_ADMIN_10", "Nombre d&apos;&eacute;l&eacute;ments");
 define("LAN_NEWS_ADMIN_11", "Les &eacute;l&eacute;ments affect&eacute;s sont ceux dont le mod&egrave;le est &apos;Carrousel d&apos;actualit&eacute;s&apos;");
 
 
-?>

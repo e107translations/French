@@ -17,4 +17,3 @@ define("LAN_NEWSLATEST_MENU_TITLE", "Derniers articles");
 define("LAN_NEWSARCHIVE_MENU_TITLE", "Archive des articles");
 
 
-?>
