@@ -114,3 +114,4 @@ define("LAN_SIGNUP_121", "Utiliser une autre adresse mail");
 define("LAN_SIGNUP_122", "Politique de confidentialit&eacute;");
 define("LAN_SIGNUP_123", "Termes et conditions");
 define("LAN_SIGNUP_124", "En vous inscrivant, vous acceptez nos[x] et nos[y].");
+define("LAN_SIGNUP_125", "Min. [x] caractères.");
