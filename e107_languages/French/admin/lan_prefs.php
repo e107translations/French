@@ -90,7 +90,6 @@ define("PRFLAN_95", "Afficher les informations des extensions :");
 define("PRFLAN_96", "Affichera les informations sur toutes les pages administration pour chaque extension supportant ce type de fonctionnalit&eacute;");
 define("PRFLAN_97", "Menu &apos;Informations extensions&apos; unique :");
 define("PRFLAN_98", "Si d&eacute;sactiv&eacute;, chaque extension affichera ses propres informations dans un menu individuel. Si activ&eacute;, toutes les informations s&apos;afficheront dans un menu unique.");
-define("PRFLAN_101", "Rendu de texte");
 define("PRFLAN_102", "Remplacer les URL cliquables");
 define("PRFLAN_103", "Si coch&eacute;, ainsi que &apos;Rendre cliquable&apos; (ci-dessus), les URL et adresses email publi&eacute;es seront remplac&eacute;es par le terme de la zone de texte ci-dessous. Ceci prot&egrave;ge la mise en page par des affichages d&apos;URL trop longues.");
 define("PRFLAN_104", "Texte de remplacement des URL");
@@ -263,3 +262,7 @@ define("PRFLAN_279", "Assurez-vous que l&apos;URL existe ! Il est pr&eacute;f&ea
 define("PRFLAN_280", "URL des conditions g&eacute;n&eacute;rales du site");
 define("PRFLAN_281", "Les 2 liens ci-dessus sont utilis&eacute;s sur les diff&eacute;rentes pages de ce site (ex : inscription et formulaire/menu de contact).\nVeuillez cr&eacute;er 2 pages (si ce n&apos;est d&eacute;j&agrave; fait) qui contiennent votre &apos;Politique de confidentialit&eacute;&apos; et les &apos;Termes et conditions&apos; du site web.\nIl existe plusieurs sites Web qui peuvent g&eacute;n&eacute;rer ces textes pour vous.\nCopiez les urls de ce site Web dans les champs ci-dessus (par exemple /page/politique-de-confidentialite ou /page/terms-and-conditions).\nAssurez-vous simplement que les pages et les urls existent et fonctionnent !");
 define("PRFLAN_282", "M&eacute;thode de sauvegarde des sessions");
+define("PRFLAN_283", "Afficher les étiquettes de la barre de navigation");
+define("PRFLAN_284", "Réduire la barre latérale de navigation par défaut");
+define("PRFLAN_285", "Conseils d'aide pour les champs d'affichage");
+define("PRFLAN_286", "Filtres de contenu");

@@ -51,3 +51,6 @@ define("CUSLAN_76", "Menu avec chemin #");
 define("CUSLAN_77", "supprim&eacute;");
 define("CUSLAN_78", "Impossible de supprimer le menu avec chemin");
 define("CUSLAN_79", "Vous devez renseigner soit un titre de page soit un nom de menu");
+define("CUSLAN_80", "Sous-titre");
+define("CUSLAN_81", "Méta image");
+define("CUSLAN_82", "Facultatif. Utilisé par les médias sociaux lors du partage de cette page.");

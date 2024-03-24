@@ -9,7 +9,6 @@
 |        $Author: Olivier Troccaz $
 +---------------------------------------------------------------+
 */
-
 define("NA_LAN_1", "L&apos;administrateur met &agrave; jour leur mot de passe");
 define("NA_LAN_2", "L&apos;administrateur cr&eacute;e un nouvel utilisateur");
 define("NA_LAN_3", "L&apos;administrateur active un nouvel utilisateur");
@@ -39,3 +38,4 @@ define("NM_LAN_3", "Adresse mail =>");
 define("NF_LAN_1", "&Eacute;v&eacute;nements de fichiers");
 define("NF_LAN_2", "Fichier t&eacute;l&eacute;charg&eacute; par un utilisateur");
 define("LAN_NOTIFY_01", "&Eacute;v&eacute;nements");
+define("NU_LAN_10", "Changement de l'IP de l'utilisateur");

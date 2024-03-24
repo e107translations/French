@@ -11,7 +11,6 @@
 */
 define("NWSLAN_4", "Articles - Articles existants");
 define("NWSLAN_6", "Cat&eacute;gorie");
-define("NWSLAN_10", "Pas de cat&eacute;gories d&apos;articles");
 define("NWSLAN_13", "Corps");
 define("NWSLAN_14", "Compl&eacute;ter l&apos;article (suite)");
 define("NWSLAN_18", "Autoriser les commentaires dans cet article");
@@ -85,24 +84,18 @@ define("NWSLAN_121", "Rien trouv&eacute; pour %s");
 define("NWSLAN_123", "Publi&eacute;");
 define("NWSLAN_127", "Mod&egrave;le par d&eacute;faut");
 define("NWSLAN_128", "Affectez une cha&icirc;ne &agrave; utiliser dans l&apos;URL de pages articles. Cela ne fonctionnera que si les r&egrave;gles .htaccess et <a href=&apos;%s&apos;>configuration eURL</a> sont ad&eacute;quates.<br>La r&eacute;solution d&apos;URL est bas&eacute;e sur la valeur actuelle :");
-define("LAN_NEWS_23", "Choisissez une image ou une vid&eacute;o pour cet article");
 define("LAN_NEWS_28", "Post-it");
 define("LAN_NEWS_29", "S&eacute;lectionner si l&apos;article sera en post-it");
 define("LAN_NEWS_30", "Si s&eacute;lectionn&eacute;, l&apos;article appara&icirc;tra au dessus de tous les autres");
 define("LAN_NEWS_32", "Date de publication");
 define("LAN_NEWS_33", "D&eacute;finir la date pour cet article");
-define("LAN_NEWS_34", "R&eacute;trolien");
-define("LAN_NEWS_35", "Ajouter des URL de r&eacute;trolien");
 define("LAN_NEWS_37", "Une URL par ligne)");
 define("LAN_NEWS_49", "Type de rendu");
 define("LAN_NEWS_51", "La modification de l&apos;auteur de l&apos;article peut &ecirc;tre r&eacute;alis&eacute; par :");
 define("LAN_NEWS_52", "Information g&eacute;n&eacute;rale");
 define("LAN_NEWS_53", "Options avanc&eacute;es");
-define("LAN_NEWS_54", "rester en mode &eacute;dition");
 define("LAN_NEWS_55", "Maintenance");
-define("LAN_NEWS_56", "Recalculer le nombre de commentaires");
 define("LAN_NEWS_57", "Proc&eacute;der");
-define("LAN_NEWS_58", "Mise &agrave; jour compl&egrave;te - --UPDATE-- nombre de commentaires mis &agrave; jour, --DELETED-- commentaires non autoris&eacute;s supprim&eacute;s");
 define("LAN_NEWS_59", "Maintenance des articles");
 define("LAN_NEWS_60", "Total de commentaires");
 define("LAN_NEWS_61", "Supprimer &eacute;galement les commentaires refus&eacute;s");
@@ -110,7 +103,6 @@ define("LAN_NEWS_62", "Erreur d&apos;acc&egrave;s &agrave; la base de donn&eacut
 define("LAN_NEWS_63", "Cr&eacute;er une cat&eacute;gorie");
 define("LAN_NEWS_64", "Ancien soumis");
 define("LAN_NEWS_65", "Veuillez choisir une URL cha&icirc;ne SEF unique pour cette cat&eacute;gorie");
-define("LAN_NEWS_66", "");
 define("LAN_NEWS_67", "Fermer");
 define("LAN_NEWS_68", "&Eacute;l&eacute;ment soumis");
 define("LAN_NEWS_69", "Zone par d&eacute;faut");
@@ -120,7 +112,6 @@ define("LAN_NEWS_72", "Barre lat&eacute;rale - Autres actualit&eacute;s");
 define("LAN_NEWS_73", "Barre lat&eacute;rale - Autres actualit&eacute;s 2");
 define("LAN_NEWS_74", "Carrousel");
 define("LAN_NEWS_75", "Featurebox");
-define("LAN_NEWS_87", "par exemple blogsearch.google.com/ping/RPC2");
 define("LAN_NEWS_88", "D&eacute;termine comment doit appara&icirc;tre la page par d&eacute;faut des actualit&eacute;s.");
 define("LAN_NEWS_89", "Notifier ces services lorsque vous cr&eacute;ez/mettez &agrave; jour de nouveaux articles.");
 define("LAN_NEWS_90", "Un par ligne.");
@@ -145,6 +136,4 @@ define("LAN_NEWS_108", "L&apos;URL SEF est diff&eacute;rente du titre de votre a
 define("LAN_NEWS_109", "D&eacute;clencher une notification par mail lorsque vous soumettez ce formulaire.");
 define("LAN_NEWS_110", "D&eacute;lai d&apos;attente du cache des actualit&eacute;s");
 define("LAN_NEWS_111", "Temps en minutes. Ne s&apos;applique que lorsque le cache syst&egrave;me est activ&eacute;.");
-
-
-?>
+define("LAN_NEWS_112", "Sélectionnez le format de l'URL. Soit le nombre d'enregistrements (ex. page=20, page=40, page=60 etc.) ou le numéro de page (ex. page=1, page=2, page=3 etc.). Avertissement : Si vous modifiez certaines URL de nouvelles, elles devront être réindexées par les moteurs de recherche.");
