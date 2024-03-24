@@ -80,6 +80,3 @@ define("LAN_GALLERY_ADMIN_68", "Carr&eacute; sombre");
 define("LAN_GALLERY_ADMIN_69", "Facebook");
 define("LAN_GALLERY_ADMIN_70", "Charger prettyPhoto compl&egrave;tement");
 define("LAN_GALLERY_ADMIN_71", "Attribut prettyPhoto (crochet)");
-
-
-?>

@@ -234,6 +234,7 @@ define("LAN_FORUM_7006", "R&eacute;sultat");
 define("LAN_FORUM_7007", "Trouv&eacute; dans le fil de discussion");
 define("LAN_FORUM_7008", "NON TROUV&Eacute;");
 define("LAN_FORUM_7009", "Aucun fichier t&eacute;l&eacute;charg&eacute; trouv&eacute;");
+define("LAN_FORUM_7010", "Nom de fichier");
 define("LAN_FORUM_8001", "Un nouveau message a &eacute;t&eacute; post&eacute; par [x] sur le sujet [y] &agrave; [z].");
 define("LAN_FORUM_8002", "Veuillez cliquer sur le lien suivant pour afficher le message complet ...");
 define("LAN_FORUM_8003", "Les notifications par mail pour ce sujet sont maintenant activ&eacute;es.");
